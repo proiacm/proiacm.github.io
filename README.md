@@ -1,8 +1,11 @@
 # My Website
 <!--- These are examples. See https://shields.io for others or to customize this set of shields. You might want to include dependencies, project status and licence info here --->
 
+View live on: https://proiacm.github.io/
+
 This is a minimal SPA built using React for my portfolio site.
 
+![](https://media.giphy.com/media/DDcfsbAkwU3hIypSFU/giphy.gif)
 
 
 <!-- ## Contributors
