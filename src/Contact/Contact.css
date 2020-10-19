@@ -1,0 +1,28 @@
+.Contact {
+    margin: 26px auto;
+    box-shadow: 0 2px 3px #AF8D86;
+    padding: 100px;
+    text-align: center;
+    color: #D8DEE0;
+    margin-bottom: auto;
+    font-family: 'Philosopher', sans-serif;
+}
+
+.Contact-img {
+    background-image: url('https://i.imgur.com/65ecJEb.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -400px;
+}
+
+a:link{
+	color: #D8DEE0;
+}
+
+a:visited{
+	color: #D8DEE0;
+}
+
+a:hover {
+    color: #AF8D86;
+}
