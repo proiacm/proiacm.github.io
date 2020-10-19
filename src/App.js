@@ -12,9 +12,9 @@ class App extends Component {
 
   state = { 
     projects: [
-     { name: 'Traveler', link: 'https://github.com/proiacm/traveler', gif:'https://media.giphy.com/media/hgg0zI4EhUAg3QgYAl/giphy.gif'},
-     { name: 'Glamlex', link:'https://github.com/proiacm/glamlex_sinatra_project', gif: 'https://media.giphy.com/media/UpnkiPR6CAq7HqtI87/giphy.gif'},
-     { name: 'Untriggered', link: 'https://github.com/proiacm/untriggered', gif:'https://media.giphy.com/media/PGNdCyJiw2vtilMvIO/giphy.gif'}
+     { name: 'Traveler', link: 'https://github.com/proiacm/traveler', gif:'https://media.giphy.com/media/hgg0zI4EhUAg3QgYAl/giphy.gif', desc: 'JavaScript trip tracker.'},
+     { name: 'Glamlex', link:'https://github.com/proiacm/glamlex_sinatra_project', gif: 'https://media.giphy.com/media/UpnkiPR6CAq7HqtI87/giphy.gif', desc: 'Ruby/Sinatra appointment manager.'},
+     { name: 'Untriggered', link: 'https://github.com/proiacm/untriggered', gif:'https://media.giphy.com/media/PGNdCyJiw2vtilMvIO/giphy.gif', desc: 'Ruby on Rails mood journal.'}
    ]
  }
 
@@ -22,7 +22,7 @@ class App extends Component {
 
     let projectList = <div>
       {this.state.projects.map((project, index) => {
-        return <Projects key={index} name={project.name} link={project.link} gif={project.gif} />
+        return <Projects key={index} name={project.name} link={project.link} gif={project.gif} desc={project.desc} />
       })}
     </div>
 
@@ -39,7 +39,8 @@ class App extends Component {
                     <span>share memes.</span>
                     <span>learn something new.</span>
                     <span>innovate.</span>
-                    </TextLoop>} />
+                    </TextLoop>} /> <br/>
+                    <h1>Projects</h1>
         {projectList}
         <Contact />
       </div>
