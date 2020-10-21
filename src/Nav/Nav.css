@@ -6,8 +6,7 @@
     color: #323231;
     margin-top: auto;
     font-family: 'Lobster Two', cursive;
-    font-size: 1vw;
-    
+    font-size: 1vw; 
 }
 
 .Nav-img {
@@ -16,5 +15,10 @@
     background-size: cover;
     background-position-y: -10vw;
     max-width: 100%;
-    height: auto;
+}
+
+@media only screen and (max-width: 720px) {
+    .Nav {
+        position: absolute;
+    }
 }

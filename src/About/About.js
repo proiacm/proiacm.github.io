@@ -6,6 +6,7 @@ const About = (props) => {
             <div className='About'>  
                 <img className='About-img' src='https://i.imgur.com/oOhU8xs.jpg'></img>
                     <div className='About-text'>
+                        <br/>
                         I leverage empathy and experience in building client relationships
                         while designing functional, aesthetic applications. <br/> <br/>
                         A versatile professional with 8+ years of work experience from start-ups to the largest companies in the USA. <br/><br/>
