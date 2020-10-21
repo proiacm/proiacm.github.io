@@ -5,8 +5,6 @@ View live on: https://proiacm.github.io/
 
 This is a minimal SPA built using React for my portfolio site.
 
-![](https://media.giphy.com/media/MfLzyphUcLkkdBBq3a/giphy.gif)
-
 
 <!-- ## Contributors
 
