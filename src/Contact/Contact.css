@@ -17,14 +17,14 @@
     height: auto ;
 }
 
-a:link{
+a.Contact-link:link{
 	color: #D8DEE0;
 }
 
-a:visited{
+a.Contact-link:visited{
 	color: #D8DEE0;
 }
 
-a:hover {
+a.Contact-link:hover {
     color: #AF8D86;
 }

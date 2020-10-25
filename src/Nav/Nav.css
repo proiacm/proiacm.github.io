@@ -1,10 +1,10 @@
 .Nav {
     margin: 50px auto;
-    box-shadow: 0 2px 3px #AF8D86;
     padding: 120px;
     text-align: center;
     color: #323231;
     margin-top: auto;
+    margin-bottom: auto;
     font-family: 'Lobster Two', cursive;
     font-size: 1.2vw; 
 }
@@ -16,4 +16,5 @@
     background-position-y: -10vw;
     max-width: 100%;
 }
+
 
