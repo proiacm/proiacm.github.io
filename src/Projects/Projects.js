@@ -1,7 +1,5 @@
 import React from 'react';
 import './Projects.css'
-import {Link} from 'react-scroll'
-
 
 const Projects = (props) => {
     
@@ -13,8 +11,9 @@ const Projects = (props) => {
             <div className='Project'>
                 <a target='_blank' href={props.link}>
                     <img className='Project-img' src={props.gif}/>
-                </a>
-            </div>
+                </a> <br/>
+            </div> <br/> 
+            {props.return}
         </div>
     )
 }

@@ -3,12 +3,11 @@
     padding: 50px;
     color: #323231;
     margin-top: auto;
-    /* background-image: linear-gradient(#D5D5D5, #96858F, #D5D5D5); */
     font-family: 'Philosopher', sans-serif;
 }
  
 .About-img {
-    border: 1px solid #D5D5D5;
+    border: 1px solid #9099A2;
     box-shadow: 0 2px 9px #9099A2;
     border-radius: 4px;
     padding: 5px;
