@@ -16,7 +16,7 @@ class App extends Component {
   state = { 
     projects: [
      { name: 'Traveler', link: 'https://github.com/proiacm/traveler', gif:'https://media.giphy.com/media/hgg0zI4EhUAg3QgYAl/giphy.gif', desc: 'JavaScript trip tracker with Rails API backend.'},
-     { name: 'Glamlex', link:'https://github.com/proiacm/glamlex_sinatra_project', gif: 'https://media.giphy.com/media/UpnkiPR6CAq7HqtI87/giphy.gif', desc: 'Ruby/Sinatra appointment manager using MVC and CRUD.', return: <Link style={{ cursor: "pointer"}} to="nav" spy={true} smooth={true}><u>Return to top</u></Link>},
+     { name: 'Glamlex', link:'https://github.com/proiacm/glamlex_sinatra_project', gif: 'https://media.giphy.com/media/UpnkiPR6CAq7HqtI87/giphy.gif', desc: 'Ruby/Sinatra appointment manager using MVC and CRUD.'},
      { name: 'Untriggered', link: 'https://github.com/proiacm/untriggered', gif:'https://media.giphy.com/media/PGNdCyJiw2vtilMvIO/giphy.gif', desc: 'Ruby on Rails mood journal with Devise and OmniAuth.'}
    ],
    experience: [
@@ -30,7 +30,7 @@ class App extends Component {
 
     let projectList = <div>
       {this.state.projects.map((project, index) => {
-        return <Projects key={index} name={project.name} link={project.link} gif={project.gif} desc={project.desc} return={project.return}/>
+        return <Projects key={index} name={project.name} link={project.link} gif={project.gif} desc={project.desc} />
       })}
     </div>
 
@@ -56,8 +56,9 @@ class App extends Component {
         </TextLoop>} />
         <h4>A versatile professional with 8+ years of work experience from start-ups to the largest companies in the USA including:</h4>
         {experienceList} <br/>
-        <Link style={{ cursor: "pointer"}} to="nav" spy={true} smooth={true}><u>Return to top</u></Link>
+        <Link style={{ cursor: "pointer"}} to="nav" spy={true} smooth={true}><u><img src='https://i.imgur.com/hyJ4Bum.png' height="50" width="50"/></u></Link>
         {projectList}
+        <Link style={{ cursor: "pointer"}} to="nav" spy={true} smooth={true}><u><img src='https://i.imgur.com/hyJ4Bum.png' height="50" width="50"/></u></Link>
         <Contact />
       </div>
     );

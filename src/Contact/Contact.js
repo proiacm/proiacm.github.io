@@ -15,7 +15,7 @@ const Contact = () => {
                 <a className='Contact-link' target='_blank' href={"mailto:" + 'proiacm@gmail.com'}><img src="https://i.imgur.com/GoTMYXF.png" alt="CiaraMaria's Email" height="50" width="50"/> </a>
             
                 <p>I'm in Colorado Springs, CO -- also open to remote work</p> <br/> <br/>
-                <Link style={{ cursor: "pointer"}} to="nav" spy={true} smooth={true}><u>Return to top</u></Link>
+                <Link style={{ cursor: "pointer"}} to="nav" spy={true} smooth={true}><u><img src='https://i.imgur.com/hyJ4Bum.png' height="50" width="50"/></u></Link>
             </div>
         </div>
     )
