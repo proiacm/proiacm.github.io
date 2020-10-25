@@ -12,9 +12,7 @@
     background-image: url('https://i.imgur.com/7yp9efg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    width: auto ;
-    max-width: 100% ;
-    height: auto ;
+    max-width: 100%;
 }
 
 a.Contact-link:link{

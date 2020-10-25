@@ -4,7 +4,8 @@ import './Projects.css'
 const Projects = (props) => {
     
     return (
-        <div className='Project-card'>
+        <div className='Project-card' id='projects'>
+            <br/> <br/>
             <h2><u>{props.name}</u></h2>
             <p>{props.desc}</p>
             <div className='Project'>

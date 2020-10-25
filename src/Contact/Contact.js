@@ -3,11 +3,14 @@ import './Contact.css';
 
 const Contact = () => {
     return (
-        <div className='Contact-img'>
-            <div className='Contact' id='contact'>
-                <h1>Contact</h1><br/>
-              <h4><a className='Contact-link' target='_blank' href='https://www.linkedin.com/in/cmproia/'> Let's connect via LinkedIn</a> | <a className='Contact-link' target='_blank' href='https://github.com/proiacm'>Collaborate on GitHub</a> | <a className='Contact-link' target='_blank' href='https://dev.to/proiacm'>Check out my blog on DEV</a> | <a className='Contact-link' target='_blank' href={"mailto:" + 'proiacm@gmail.com'}>Send me an email</a></h4>
-            
+        <div className='Contact-img' id='contact'>
+            <div className='Contact'>
+                <br/>
+                <h1>Let's Connect</h1><br/>
+                <a className='Contact-link' target='_blank' href='https://www.linkedin.com/in/cmproia/'> <img src="https://i.imgur.com/PEDSkM6.png" alt="CiaraMaria's LinkedIn" height="50" width="50"/></a> &nbsp; &nbsp;
+                <a className='Contact-link' target='_blank' href='https://github.com/proiacm'><img src="https://i.imgur.com/7Av2xFa.png" alt="CiaraMaria's GitHub Profile" height="50" width="50"/></a> &nbsp; &nbsp;
+                <a className='Contact-link' target='_blank' href='https://dev.to/proiacm'><img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="CiaraMaria's DEV Profile" height="50" width="50"/></a> &nbsp; &nbsp;
+                <a className='Contact-link' target='_blank' href={"mailto:" + 'proiacm@gmail.com'}><img src="https://i.imgur.com/GoTMYXF.png" alt="CiaraMaria's Email" height="50" width="50"/> </a>
             </div>
         </div>
     )
