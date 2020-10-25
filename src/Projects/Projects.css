@@ -1,21 +1,22 @@
 
 .Project-card {
-    background-color: #D8DEE0;
+    background-color: #D5D5D5;
     width: 400px;
     display: inline-block;
     padding: 10px;
     font-family: 'Philosopher', sans-serif;
     color: #323231;
-    height: 700px;
+    height: 600px;
 }
 
 .Project {
     height: 200px;
     margin: 26px auto;
-    box-shadow: 0 2px 3px #AF8D86;
+    box-shadow: 0 2px 9px #9099A2;
     padding: 100px;
     text-align: center;
-    background-color: rgb(228, 234, 236);
+    /* background-color: #9099A2; */
+    background-image: linear-gradient(#D5D5D5, #9099A2, #D5D5D5);
     border-radius: 4px;
 } 
 
@@ -25,8 +26,8 @@
     }
 
 .Project-img {
-     border: 1px solid #AF8D86;
-    box-shadow: 0 2px 3px #AF8D86;
+    border: 1px solid #9099A2;
+    box-shadow: 0 2px 3px #9099A2;
     border-radius: 4px;
     height: 350px;
     width: 350px;

@@ -1,15 +1,15 @@
 .Contact {
     margin: 26px auto;
-    box-shadow: 0 2px 3px #AF8D86;
     padding: 100px;
     text-align: center;
-    color: #D8DEE0;
+    color: #323231;
     margin-bottom: auto;
     font-family: 'Philosopher', sans-serif;
+    background-image: linear-gradient(#D5D5D5, #96858F);
 }
 
 .Contact-img {
-    background-image: url('https://i.imgur.com/7yp9efg.jpg');
+    /* background-image: url('https://i.imgur.com/7yp9efg.jpg'); */
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;

@@ -6,9 +6,6 @@ import Projects from './Projects/Projects';
 import Nav from './Nav/Nav';
 import Typical from 'react-typical'
 import TextLoop from 'react-text-loop';
-import * as Scroll from 'react-scroll';
-import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
- 
 
 class App extends Component {
 
@@ -31,8 +28,8 @@ class App extends Component {
 
     return (
       <div className="App">
-        <Nav animatedText={<Typical steps={['Hi, I\'m CiaraMaria...', 1000, 'and I\'m a software developer!', 500]}
-        loop={Infinity}
+        <Nav animatedText={<Typical steps={['Hi, I\'m CiaraMaria and I\'m a software developer !', 1000]}
+        loop={1}
         wrapper="h1"/>} />
         <About loopText={<TextLoop interval={2000}>
                     <span>build something together.</span>
