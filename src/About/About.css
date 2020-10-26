@@ -16,3 +16,11 @@
     float: left;
     margin-right: 20px;
 }
+
+
+@media only screen and (max-width: 600px){
+    .About {
+      width: 60%;
+      font-size: 60%;
+    }
+  }

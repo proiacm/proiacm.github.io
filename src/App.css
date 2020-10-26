@@ -8,3 +8,8 @@
   color: #323231;
 }
 
+@media only screen and (max-width: 600px){
+  .App {
+    font-size: 60%;
+  }
+}
