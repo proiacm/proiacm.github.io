@@ -15,8 +15,8 @@ class App extends Component {
 
   state = { 
     projects: [
-     { name: 'Glamlex', link: 'https://github.com/proiacm/Glamlex', gif:'https://i.imgur.com/r2Wh0dR.gif', desc: 'React SPA freelance project for salon.'},
-     { name: 'Taskmaster', link:'https://github.com/proiacm/Taskmaster', gif: 'https://i.imgur.com/6Ud8dVB.gif', desc: 'Ruby/Sinatra task manager using MVC and CRUD.'},
+     { name: 'Glamlex', link: 'https://github.com/proiacm/Glamlex', gif:'https://i.imgur.com/r2Wh0dR.gif', desc: 'React SPA freelance project for a local salon owner.'},
+     { name: 'Taskmaster', link:'https://github.com/proiacm/Taskmaster', gif: 'https://i.imgur.com/6Ud8dVB.gif', desc: 'Ruby todo app using MVC/CRUD with user functionality.'},
      { name: 'Traveler', link: 'https://github.com/proiacm/traveler', gif:'https://media.giphy.com/media/hgg0zI4EhUAg3QgYAl/giphy.gif', desc: 'JavaScript trip tracker with Rails API backend.'}
    ],
    experience: [
