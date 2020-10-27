@@ -15,9 +15,9 @@ class App extends Component {
 
   state = { 
     projects: [
-     { name: 'Traveler', link: 'https://github.com/proiacm/traveler', gif:'https://media.giphy.com/media/hgg0zI4EhUAg3QgYAl/giphy.gif', desc: 'JavaScript trip tracker with Rails API backend.'},
-     { name: 'Glamlex', link:'https://github.com/proiacm/glamlex_sinatra_project', gif: 'https://media.giphy.com/media/UpnkiPR6CAq7HqtI87/giphy.gif', desc: 'Ruby/Sinatra appointment manager using MVC and CRUD.'},
-     { name: 'Untriggered', link: 'https://github.com/proiacm/untriggered', gif:'https://media.giphy.com/media/PGNdCyJiw2vtilMvIO/giphy.gif', desc: 'Ruby on Rails mood journal with Devise and OmniAuth.'}
+     { name: 'Glamlex', link: 'https://github.com/proiacm/Glamlex', gif:'https://i.imgur.com/r2Wh0dR.gif', desc: 'React SPA freelance project for salon.'},
+     { name: 'Taskmaster', link:'https://github.com/proiacm/Taskmaster', gif: 'https://i.imgur.com/6Ud8dVB.gif', desc: 'Ruby/Sinatra task manager using MVC and CRUD.'},
+     { name: 'Traveler', link: 'https://github.com/proiacm/traveler', gif:'https://media.giphy.com/media/hgg0zI4EhUAg3QgYAl/giphy.gif', desc: 'JavaScript trip tracker with Rails API backend.'}
    ],
    experience: [
      { logo: 'https://i.imgur.com/AZ7wGW8.png'},
