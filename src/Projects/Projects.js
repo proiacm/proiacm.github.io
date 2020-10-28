@@ -5,7 +5,7 @@ const Projects = (props) => {
     
     return (
         <div className='Project-card'>
-            <h2 id='projects'><u>{props.name}</u></h2>
+            <h2><u>{props.name}</u></h2>
             <p>{props.desc}</p>
             <div className='Project'>
                 <a target='_blank' href={props.link}>
