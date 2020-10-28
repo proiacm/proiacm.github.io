@@ -8,9 +8,21 @@
   color: #323231;
 }
 
+a:active {
+  color: #323231;
+}
+
+a:visited {
+  color: #323231;
+}
+
 @media only screen and (max-width: 600px){
   .animated-text {
       font-size: 100%;
      
+    }
+  
+    .experience {
+      font-size: 100%;
     }
   }

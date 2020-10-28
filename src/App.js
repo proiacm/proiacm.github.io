@@ -56,7 +56,7 @@ class App extends Component {
         <Link style={{ cursor: "pointer"}} to="contact" spy={true} smooth={true}><span>learn something new.</span></Link>
         <Link style={{ cursor: "pointer"}} to="contact" spy={true} smooth={true}><span>innovate.</span></Link>
         </TextLoop>} />
-        <h4>A versatile professional with 8+ years of work experience from start-ups to the largest companies in the USA including:</h4>
+        <h4 className='experience'>A versatile professional with 8+ years of work experience from start-ups to the largest companies in the USA including:</h4>
         {experienceList} <br/>
         <Link style={{ cursor: "pointer"}} to="nav" spy={true} smooth={true}><u><img src='https://i.imgur.com/hyJ4Bum.png' height="50" width="50"/></u></Link>
         <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/>

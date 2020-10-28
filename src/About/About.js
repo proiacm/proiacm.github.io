@@ -1,10 +1,11 @@
 import React from 'react';
 import './About.css'
+import profile from '../Images/ciaramaria.webp';
 
 const About = (props) => {
     return (
             <div className='About'>  
-                <img id='about' className='About-img' src='https://i.imgur.com/oOhU8xs.jpg' alt='Software Developer'/>
+                <img id='about' className='About-img' src={profile} alt='Software Developer'/>
                     <div className='About-text'>
                         <br/>
                         <h4>Technical skills: React | JavaScript | Ruby on Rails | CSS | SQL</h4>

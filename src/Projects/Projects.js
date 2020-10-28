@@ -5,12 +5,10 @@ const Projects = (props) => {
     
     return (
         <div className='Project-card'>
-            <h2><u>{props.name}</u></h2>
+            <h2><a target='_blank' href={props.link}>{props.name}</a></h2>
             <p>{props.desc}</p>
             <div className='Project'>
-                <a target='_blank' href={props.link}>
                     <iframe className='Project-img' src={props.video}/>
-                </a> 
             </div> 
         </div>
     )
