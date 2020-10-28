@@ -1,5 +1,5 @@
 import React from 'react';
-import './Projects.css'
+import './Projects.css';
 
 const Projects = (props) => {
     
@@ -9,7 +9,7 @@ const Projects = (props) => {
             <p>{props.desc}</p>
             <div className='Project'>
                 <a target='_blank' href={props.link}>
-                    <img className='Project-img' src={props.gif}/>
+                    <iframe className='Project-img' src={props.video}/>
                 </a> 
             </div> 
         </div>

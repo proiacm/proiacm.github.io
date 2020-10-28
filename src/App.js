@@ -4,20 +4,22 @@ import About from './About/About';
 import Contact from './Contact/Contact';
 import Projects from './Projects/Projects';
 import Nav from './Nav/Nav';
-import Typical from 'react-typical'
+import Typical from 'react-typical';
 import TextLoop from 'react-text-loop';
 import Experience from './Experience/Experience';
-import {Link} from 'react-scroll'
-
+import {Link} from 'react-scroll';
+import glamlex from './Demos/glamlex.mp4';
+import taskmaster from './Demos/taskmaster.mp4';
+import traveler from './Demos/traveler.mp4';
 
 class App extends Component {
 
 
   state = { 
     projects: [
-     { name: 'Glamlex', link: 'https://github.com/proiacm/Glamlex', gif:'https://i.imgur.com/MAwJmhO.gif', desc: 'React SPA freelance project for a local salon owner.'},
-     { name: 'Taskmaster', link:'https://github.com/proiacm/Taskmaster', gif: 'https://i.imgur.com/H8pQtx8.gif', desc: 'Ruby todo app using MVC/CRUD with user functionality.'},
-     { name: 'Traveler', link: 'https://github.com/proiacm/traveler', gif:'https://media.giphy.com/media/hgg0zI4EhUAg3QgYAl/giphy.gif', desc: 'JavaScript trip tracker with Rails API backend.'}
+     { name: 'Glamlex', link: 'https://github.com/proiacm/Glamlex', vid: glamlex , desc: 'React SPA freelance project for a local salon owner.'},
+     { name: 'Taskmaster', link:'https://github.com/proiacm/Taskmaster', vid: taskmaster, desc: 'Ruby todo app using MVC/CRUD with user functionality.'},
+     { name: 'Traveler', link: 'https://github.com/proiacm/traveler', vid: traveler, desc: 'JavaScript trip tracker with Rails API backend.'}
    ],
    experience: [
      { logo: 'https://i.imgur.com/AZ7wGW8.png'},
@@ -30,7 +32,7 @@ class App extends Component {
 
     let projectList = <div>
       {this.state.projects.map((project, index) => {
-        return <Projects key={index} name={project.name} link={project.link} gif={project.gif} desc={project.desc} />
+        return <Projects key={index} name={project.name} link={project.link} video={project.vid} desc={project.desc} />
       })}
     </div>
 
