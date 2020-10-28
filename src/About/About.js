@@ -3,8 +3,8 @@ import './About.css'
 
 const About = (props) => {
     return (
-            <div className='About' id='about'>  
-                <img className='About-img' src='https://i.imgur.com/oOhU8xs.jpg'/>
+            <div className='About'>  
+                <img id='about' className='About-img' src='https://i.imgur.com/oOhU8xs.jpg'/>
                     <div className='About-text'>
                         <br/>
                         <h4>Technical skills: React | JavaScript | Ruby on Rails | CSS | SQL</h4>

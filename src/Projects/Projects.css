@@ -5,7 +5,7 @@
     display: inline-block;
     padding: 10px;
     padding-top: 10px;
-    font-family: 'Philosopher', sans-serif;
+    font-family: 'Playfair Display', serif;
     color: #323231;
 }
 
@@ -36,9 +36,13 @@
 }
 
 @media only screen and (max-width: 600px){
+
     .Project {
-      margin: auto;
       width: 80%;
+    }
+
+    .Project-card {
+       margin-left: -10px;
     }
   
   }

@@ -4,12 +4,13 @@
   text-align: center;
   background-color: #D5D5D5;
   overflow: hidden;
-  font-family: 'Philosopher', sans-serif;
+  font-family: 'Playfair Display', serif;
   color: #323231;
 }
 
 @media only screen and (max-width: 600px){
   .animated-text {
-      font-size: 70%;
+      font-size: 100%;
+     
     }
   }
