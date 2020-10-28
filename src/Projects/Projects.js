@@ -5,7 +5,7 @@ const Projects = (props) => {
     
     return (
         <div className='Project-card'>
-            <h2><a target='_blank' href={props.link}>{props.name}</a></h2>
+            <h2><a target='_blank' rel="noreferrer" href={props.link}>{props.name}</a></h2>
             <p>{props.desc}</p>
             <div className='Project'>
                     <iframe className='Project-img' src={props.video}/>
