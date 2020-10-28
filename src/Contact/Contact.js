@@ -9,7 +9,7 @@ const Contact = () => {
                 <br/>
                 <h1>Let's Connect</h1><br/>
                
-                <a className='Contact-link' target='_blank' href='https://www.linkedin.com/in/cmproia/'> <img className='logo' src="https://i.imgur.com/PEDSkM6.png" alt="CiaraMaria's LinkedIn"/></a> &nbsp; &nbsp;
+                <a className='Contact-link' target='_blank' href='https://www.linkedin.com/in/cmproia/'> <img className='logo1' src="https://i.imgur.com/PEDSkM6.png" alt="CiaraMaria's LinkedIn"/></a> &nbsp; &nbsp;
                 <a className='Contact-link' target='_blank' href='https://github.com/proiacm'><img className='logo' src="https://i.imgur.com/7Av2xFa.png" alt="CiaraMaria's GitHub Profile"/></a> &nbsp; &nbsp;
                 <a className='Contact-link' target='_blank' href='https://dev.to/proiacm'><img className='logo' src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="CiaraMaria's DEV Profile"/></a> &nbsp; &nbsp;
                 <a className='Contact-link' target='_blank' href={"mailto:" + 'proiacm@gmail.com'}><img className='logo' src="https://i.imgur.com/GoTMYXF.png" alt="CiaraMaria's Email"/> </a>
