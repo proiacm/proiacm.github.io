@@ -23,7 +23,11 @@
 }
 
 @media only screen and (max-width: 600px){
-    .About {
-      width: 60%;
+    .About-text {
+      margin-left: 50px;
+      font-size: 4vw;
+    }
+    .About-img {
+      width: 100px;
     }
   }

@@ -42,7 +42,7 @@ class App extends Component {
 
     return (
       <div className="App">
-        <Nav animatedText={<Typical steps={['Hi, I\'m CiaraMaria and I\'m a software developer !', 1000]}
+        <Nav animatedText={<Typical className='animated-text' steps={['Hi, I\'m CiaraMaria and I\'m a software developer !', 1000]}
         loop={1}
         wrapper="h1"/>} />
         <About loopText={<TextLoop interval={2000}>
