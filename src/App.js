@@ -46,18 +46,18 @@ class App extends Component {
         loop={1}
         wrapper="h1"/>} />
         <About loopText={<TextLoop interval={2000}>
-        <span>build something together.</span>
-        <span>solve a problem.</span>
-        <span>grab coffee.</span>
-        <span>pair program.</span>
-        <span>share memes.</span>
-        <span>learn something new.</span>
-        <span>innovate.</span>
+        <Link style={{ cursor: "pointer"}} to="contact" spy={true} smooth={true}><span>build something together.</span></Link>
+        <Link style={{ cursor: "pointer"}} to="contact" spy={true} smooth={true}><span>solve a problem.</span></Link>
+        <Link style={{ cursor: "pointer"}} to="contact" spy={true} smooth={true}><span>grab coffee.</span></Link>
+        <Link style={{ cursor: "pointer"}} to="contact" spy={true} smooth={true}><span>pair program.</span></Link>
+        <Link style={{ cursor: "pointer"}} to="contact" spy={true} smooth={true}><span>share memes.</span></Link>
+        <Link style={{ cursor: "pointer"}} to="contact" spy={true} smooth={true}><span>learn something new.</span></Link>
+        <Link style={{ cursor: "pointer"}} to="contact" spy={true} smooth={true}><span>innovate.</span></Link>
         </TextLoop>} />
         <h4>A versatile professional with 8+ years of work experience from start-ups to the largest companies in the USA including:</h4>
         {experienceList} <br/>
         <Link style={{ cursor: "pointer"}} to="nav" spy={true} smooth={true}><u><img src='https://i.imgur.com/hyJ4Bum.png' height="50" width="50"/></u></Link>
-        <br/> <br/> <br/>
+        <br/> <br/> <br/> <br/> <br/>
         <h1 id='projects'>Projects</h1>
         {projectList}
         <Link style={{ cursor: "pointer"}} to="nav" spy={true} smooth={true}><u><img src='https://i.imgur.com/hyJ4Bum.png' height="50" width="50"/></u></Link>
