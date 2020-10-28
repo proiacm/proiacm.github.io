@@ -4,7 +4,7 @@ import './About.css'
 const About = (props) => {
     return (
             <div className='About'>  
-                <img id='about' className='About-img' src='https://i.imgur.com/oOhU8xs.jpg'/>
+                <img id='about' className='About-img' src='https://i.imgur.com/oOhU8xs.jpg' alt='Software Developer'/>
                     <div className='About-text'>
                         <br/>
                         <h4>Technical skills: React | JavaScript | Ruby on Rails | CSS | SQL</h4>
