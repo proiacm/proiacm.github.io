@@ -31,4 +31,7 @@
       width: 120px;
       margin-top: 30px;
     }
+    .animated {
+      font-size: 100%;
+    }
   }

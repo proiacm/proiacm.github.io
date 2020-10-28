@@ -17,7 +17,7 @@ const About = (props) => {
                         I want to be a part of helping businesses advance their digital footprint in the Information Age
                         and relish working with people whom I can learn from and that relentlessly look for the best solutions to problems. <br/> <br/>
                         I'm always learning and am currently open to work opportunities or collaboration! <br/><br/>
-                       <h3> Let's {props.loopText} </h3> 
+                       <h3 className='animated'> Let's {props.loopText} </h3> 
                     </div>
                     <hr/>
             </div>
