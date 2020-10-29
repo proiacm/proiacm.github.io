@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.9880a602.chunk.css",
+    "main.css": "/static/css/main.59612a5c.chunk.css",
     "main.js": "/static/js/main.b54d52c2.chunk.js",
     "main.js.map": "/static/js/main.b54d52c2.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b41d253a.js",
@@ -8,9 +8,9 @@
     "static/js/2.32a0a1af.chunk.js": "/static/js/2.32a0a1af.chunk.js",
     "static/js/2.32a0a1af.chunk.js.map": "/static/js/2.32a0a1af.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.2004d2c66d4e5965f1b0a0a379f53aba.js": "/precache-manifest.2004d2c66d4e5965f1b0a0a379f53aba.js",
+    "precache-manifest.c818c8f4f6fa0409ecb139a9af1125d3.js": "/precache-manifest.c818c8f4f6fa0409ecb139a9af1125d3.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.9880a602.chunk.css.map": "/static/css/main.9880a602.chunk.css.map",
+    "static/css/main.59612a5c.chunk.css.map": "/static/css/main.59612a5c.chunk.css.map",
     "static/js/2.32a0a1af.chunk.js.LICENSE.txt": "/static/js/2.32a0a1af.chunk.js.LICENSE.txt",
     "static/media/ciaramaria.webp": "/static/media/ciaramaria.22a4b8be.webp",
     "static/media/glamlex.mp4": "/static/media/glamlex.1d17b290.mp4",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.b41d253a.js",
     "static/js/2.32a0a1af.chunk.js",
-    "static/css/main.9880a602.chunk.css",
+    "static/css/main.59612a5c.chunk.css",
     "static/js/main.b54d52c2.chunk.js"
   ]
 }
