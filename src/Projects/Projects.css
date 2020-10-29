@@ -19,7 +19,7 @@
 
 .Project:hover {
     transform: scale(2.1);
-    transition: 700ms;
+    transition: 900ms;
     }
 
 .Project-img {
@@ -41,5 +41,10 @@
     .Project-card {
        margin-left: -10px;
     }
+
+    .Project:hover {
+        transform: scale(1.2);
+        transition: 900ms;
+        }
   
   }
