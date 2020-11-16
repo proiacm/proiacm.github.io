@@ -1,37 +1,32 @@
 .About {
     margin: 26px auto;
-    padding: 50px;
-    color: #323231;
+    padding-top: 50px;
     margin-top: auto;
-    font-family: 'Playfair Display', serif;
-    margin-bottom: -50px;
-}
- 
-.About-img {
-    border: 1px solid #9099A2;
-    box-shadow: 0 2px 9px #9099A2;
-    border-radius: 4px;
-    padding: 5px;
-    width: 200px;
-    float: left;
-    margin-right: 20px;
+    font-family: 'Playfair Display', serif;    
 }
 
 .About-text {
-  margin-left: 300px;
-  /* word-wrap: break-word; */
+  padding-top: 20px;
+  font-size: large;
+}
+
+h4.fun-fact {
+	background: linear-gradient(to right, #7272a7 0%, #d87d9f 90%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 @media only screen and (max-width: 600px){
     .About-text {
       margin-left: 10px;
-      font-size: 5vw;
+      font-size: 93%;
+      padding-top: 10%;
     }
-    .About-img {
+    /* .About-img {
       width: 120px;
       margin-top: 30px;
-    }
+    } */
     .animated {
-      font-size: 100%;
+      font-size: 93%;
     }
   }

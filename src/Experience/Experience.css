@@ -1,12 +1,30 @@
 .Experience {
   display: inline-block;
-  margin: 5px;
-  width: 250px;
-  padding: 10px;
+  padding-left: 400px;
+  padding-right: 400px;
+  padding-bottom: 20px;
+  position: relative;
+  height: 400px;
+  font-size: medium;
 }
+
+img.exp {
+  height: 120px;
+  width: 120px;
+  margin: 20px;
+}
+
+
 
 @media only screen and (max-width: 600px){
   .Experience {
-    width: 30%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 2%;
+  }
+  img.exp {
+    margin: 15px;
+    height: 80px;
+    width: 80px;
   }
 }

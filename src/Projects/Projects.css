@@ -1,19 +1,19 @@
 
 .Project-card {
-    background-color: #D5D5D5;
+    background-color: #ffffff; 
     width: 300px;
     display: inline-block;
     padding: 20px;
     font-family: 'Playfair Display', serif;
     color: #323231;
- 
+    padding-top: 80px;
 }
 
 .Project {
     margin: 10px;
     box-shadow: 0 2px 9px #9099A2;
     padding: 10px;
-    background-image: linear-gradient(#D5D5D5, #9099A2, #D5D5D5);
+	background: linear-gradient(to right, #7272a7 0%, #d87d9f 90%);
     border-radius: 4px;
 } 
 
