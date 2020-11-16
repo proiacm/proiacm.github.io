@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.bd5af38a.chunk.css",
-    "main.js": "/static/js/main.13df9372.chunk.js",
-    "main.js.map": "/static/js/main.13df9372.chunk.js.map",
+    "main.css": "/static/css/main.ff214fd6.chunk.css",
+    "main.js": "/static/js/main.43716563.chunk.js",
+    "main.js.map": "/static/js/main.43716563.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b41d253a.js",
     "runtime-main.js.map": "/static/js/runtime-main.b41d253a.js.map",
     "static/js/2.f65e3d28.chunk.js": "/static/js/2.f65e3d28.chunk.js",
     "static/js/2.f65e3d28.chunk.js.map": "/static/js/2.f65e3d28.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.626a2444ed0c24c882956b778be315a1.js": "/precache-manifest.626a2444ed0c24c882956b778be315a1.js",
+    "precache-manifest.490f4454fdc0dd1f973cce60b8b0db08.js": "/precache-manifest.490f4454fdc0dd1f973cce60b8b0db08.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.bd5af38a.chunk.css.map": "/static/css/main.bd5af38a.chunk.css.map",
+    "static/css/main.ff214fd6.chunk.css.map": "/static/css/main.ff214fd6.chunk.css.map",
     "static/js/2.f65e3d28.chunk.js.LICENSE.txt": "/static/js/2.f65e3d28.chunk.js.LICENSE.txt",
     "static/media/christmascountdown.mp4": "/static/media/christmascountdown.6e58ce37.mp4",
     "static/media/ciaramaria.webp": "/static/media/ciaramaria.22a4b8be.webp",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.b41d253a.js",
     "static/js/2.f65e3d28.chunk.js",
-    "static/css/main.bd5af38a.chunk.css",
-    "static/js/main.13df9372.chunk.js"
+    "static/css/main.ff214fd6.chunk.css",
+    "static/js/main.43716563.chunk.js"
   ]
 }
