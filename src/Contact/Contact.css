@@ -31,5 +31,9 @@ img.logo:hover {
     .Contact {
         padding-top: 250px;
     }
+
+    h1.connect, p.location {
+        font-size: 98%;
+    }
   
   }
