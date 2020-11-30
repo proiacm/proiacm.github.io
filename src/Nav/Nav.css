@@ -1,11 +1,11 @@
 .Nav {
     padding-bottom: 230px;
     text-align: center;
-    color: #ffffff;
+    color: #323231;
     /* font-family: 'Dancing Script', cursive; */
     font-family: 'Playfair Display', serif;
     font-size: small;
-    background-image: linear-gradient(#ffffff, #2c2b30 80%);
+    background-image: linear-gradient(#f3f1e9, #ff5c5cc9 60%);
     position: relative;
     height: 400px;
     clip-path: polygon(
@@ -20,8 +20,6 @@
   font-family: 'Playfair Display', serif;
   font-size: large;
 }
-
-
 
 @media only screen and (max-width: 600px){
     .Nav-bar {
