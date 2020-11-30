@@ -2,11 +2,11 @@
 .Project-card {
     background-color: #f3f1e9; 
     width: 300px;
+    height: auto;
     display: inline-block;
     padding: 20px;
     font-family: 'Playfair Display', serif;
     color: #323231;
-    padding-top: 80px;
 }
 
 .Project {
@@ -28,22 +28,26 @@
     border-radius: 4px;
     display: block;
     bottom: 80px;
-    max-width: 100%;
-    max-height: 100%;
+    width: 100%;
+    height: auto;
 }
 
 @media only screen and (max-width: 600px){
 
     .Project {
-      width: 80%;
+      width: 100%;
+      height: auto;
     }
 
     .Project-card {
-       margin-left: -10px;
+       margin-left: -35px;
+       width: 90%;
+       height: auto;
+       padding-bottom: 90px;
     }
 
     .Project:hover {
-        transform: scale(1.2);
+        transform: scale(1);
         transition: 900ms;
         }
   

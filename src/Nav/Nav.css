@@ -23,11 +23,12 @@
 
 @media only screen and (max-width: 600px){
     .Nav-bar {
-      font-size: 97%;
+      font-size: 5vw;
     }
 
     .Nav {
       padding-bottom: 80%;
+      font-size: 4vw;
     }
 
   }

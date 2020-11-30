@@ -1,31 +1,39 @@
 .About {
-    margin: 26px auto;
-    padding-top: 50px;
+    /* margin: 26px auto; */
+    padding-top: 60px;
     margin-top: auto;
-    font-family: 'Playfair Display', serif;    
+    font-family: 'Playfair Display', serif;   
+}
+
+img.About-img {
+  float: left;
+  width: 20%;
+  height: auto;
+  padding-right: 60px;
+  
 }
 
 .About-text {
-  padding-top: 20px;
   font-size: large;
+  text-align: center;
+  float: right;
+  padding-right: 10px;
 }
 
-h4.fun-fact {
-	background: linear-gradient(to right, #7272a7 0%, #d87d9f 90%);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+p.fun-fact {
+  border: 1px solid #C0C9CB;
+  box-shadow: 0 2px 3px #C0C9CB;
+  background-color: #f7f6f1;
 }
 
 @media only screen and (max-width: 600px){
     .About-text {
       margin-left: 10px;
-      font-size: 93%;
-      padding-top: 10%;
+      font-size: 5vw;
     }
-    /* .About-img {
-      width: 120px;
-      margin-top: 30px;
-    } */
+    img.About-img {
+      width: 100%;
+    }
     .animated {
       font-size: 97%;
     }
