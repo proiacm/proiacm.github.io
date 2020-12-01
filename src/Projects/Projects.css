@@ -9,15 +9,6 @@
     padding-bottom: 90px;
 }
 
-.Project-img {
-    border: 1px solid #f3f1e9;
-    box-shadow: 0 2px 3px #111111;
-    border-radius: 2px;
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
 .image {
     opacity: 1;
     display: block;
@@ -25,6 +16,7 @@
     height: auto;
     transition: 700ms;
     backface-visibility: hidden;
+    border: 2px solid #97BCA2;
   }
 
 .text {
