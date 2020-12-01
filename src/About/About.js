@@ -17,8 +17,8 @@ const About = () => {
                         <div className='About-text' id='about'>
                                 <img className='About-img' src={profile} alt='CiaraMaria'/>       
                                 <h1  className='fun'>Designer | Developer | Dog-person</h1>
-                                Leveraging experience in building client relationships and passion for <br/>solving problems
-                                while developing stunning, useable applications. 
+                                <h4>Leveraging experience in building client relationships and passion for <br/>solving problems
+                                while developing stunning, useable applications.</h4>
                                 <p>Fun fact: I have lived in North America, Central America, and Europe.</p>                                <img className='tech-stacktop' src={js} alt='js'/>
                                 <img className='tech-stack' src={react} alt='react'/>
                                 <img className='tech-stack' src={ruby} alt='ruby'/>  
