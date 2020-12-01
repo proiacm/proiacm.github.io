@@ -13,7 +13,7 @@ This section should list any major frameworks that you built your project using.
 <!-- LICENSE -->
 ## License
 
-License Copyright CiaraMaria Proia 2020
+License Copyright 2020 proiacm
 
 
 
