@@ -19,7 +19,7 @@ class App extends Component {
     projects: [
      { name: 'Glamlex', img: glamlex , desc: <a target='_blank' rel="noopener noreferrer" href='https://github.com/proiacm/Glamlex'>View Code</a>},
      { name: 'Taskmaster', img: taskmaster, desc: <a target='_blank' rel="noopener noreferrer" href='https://github.com/proiacm/Taskmaster'>View Code</a>},
-     { name: 'Christmas Countdown', img: christmas, desc: <a target='_blank' rel="noopener noreferrer" href='https://github.com/proiacm/Christmas'>View Code</a>, desc2: <a target='_blank' rel="noopener noreferrer" href='https://proiacm.github.io/Christmas/'>View Live</a>}
+     { name: 'Christmas Countdown', img: christmas, desc: <a target='_blank' rel="noopener noreferrer" href='https://github.com/proiacm/Christmas'>View Code</a>}
    ]
  }
 
@@ -27,7 +27,7 @@ class App extends Component {
 
     let projectList = <div>
       {this.state.projects.map((project, index) => {
-        return <Projects key={index} name={project.name} demo={project.img} desc={project.desc} desc2={project.desc2}/>
+        return <Projects key={index} name={project.name} demo={project.img} desc={project.desc} />
       })}
     </div>
 
@@ -39,6 +39,7 @@ class App extends Component {
         <About />
         <Experience />
         <hr/>
+        <h1 className='projectheader' id='projects'>Featured Projects</h1>
         {projectList}
         {/* <Link style={{ cursor: "pointer"}} to="nav" spy={true} smooth={true}><u><img src='https://i.imgur.com/hyJ4Bum.png' height="50" width="50"/></u></Link> */}
         <Contact loopText={<TextLoop interval={2000}>
