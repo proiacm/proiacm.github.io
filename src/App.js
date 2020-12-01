@@ -35,22 +35,22 @@ class App extends Component {
 
     return (
       <div className="App">
-        <Nav animatedText={<Typical className='animated-text' steps={['Hi, I\'m CiaraMaria and I\'m a software developer !', 1000]}
+        <Nav animatedText={<Typical className='animated-text' steps={['Hi, I\'m CiaraMaria!', 1000]}
         loop={1}
         wrapper="h1"/>} />
-        <About loopText={<TextLoop interval={2000}>
-        <Link style={{ cursor: "pointer"}} to="contact" spy={true} smooth={true}><span>build something together.</span></Link>
-        <Link style={{ cursor: "pointer"}} to="contact" spy={true} smooth={true}><span>solve a problem.</span></Link>
-        <Link style={{ cursor: "pointer"}} to="contact" spy={true} smooth={true}><span>grab coffee.</span></Link>
-        <Link style={{ cursor: "pointer"}} to="contact" spy={true} smooth={true}><span>talk philosophy.</span></Link>
-        <Link style={{ cursor: "pointer"}} to="contact" spy={true} smooth={true}><span>share memes.</span></Link>
-        <Link style={{ cursor: "pointer"}} to="contact" spy={true} smooth={true}><span>learn something new.</span></Link>
-        <Link style={{ cursor: "pointer"}} to="contact" spy={true} smooth={true}><span>innovate.</span></Link>
-        </TextLoop>} />
+        <About />
         <Experience />
         {projectList}
         {/* <Link style={{ cursor: "pointer"}} to="nav" spy={true} smooth={true}><u><img src='https://i.imgur.com/hyJ4Bum.png' height="50" width="50"/></u></Link> */}
-        <Contact />
+        <Contact loopText={<TextLoop interval={2000}>
+        <Link spy={true} smooth={true}><span>build something together.</span></Link>
+        <Link spy={true} smooth={true}><span>solve a problem.</span></Link>
+        <Link spy={true} smooth={true}><span>grab coffee.</span></Link>
+        <Link spy={true} smooth={true}><span>talk philosophy.</span></Link>
+        <Link spy={true} smooth={true}><span>share memes.</span></Link>
+        <Link spy={true} smooth={true}><span>learn something new.</span></Link>
+        <Link spy={true} smooth={true}><span>innovate.</span></Link>
+        </TextLoop>}/>
       </div>
     );
   }

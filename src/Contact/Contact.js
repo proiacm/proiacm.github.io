@@ -2,11 +2,11 @@ import React from 'react';
 import './Contact.css';
 import {Link} from 'react-scroll';
 
-const Contact = () => {
+const Contact = (props) => {
     return (
         <div className='Contact-img'>
             <div className='Contact' id='contact'>
-                <h1 className='connect'>Let's Connect</h1><br/>
+                <h2 className='animated'>Let's {props.loopText}</h2><br/>                      
                 <a className='Contact-link' target='_blank' rel="noopener noreferrer" href='https://www.linkedin.com/in/cmproia/'><img className='logo' src="https://i.imgur.com/PEDSkM6.png" alt="CiaraMaria's LinkedIn"/></a> &nbsp; &nbsp;
                 <a className='Contact-link' target='_blank' rel="noopener noreferrer" href='https://github.com/proiacm'><img className='logo' src="https://i.imgur.com/7Av2xFa.png" alt="CiaraMaria's GitHub Profile"/></a> &nbsp; &nbsp;
                 <a className='Contact-link' target='_blank' rel="noopener noreferrer" href='https://dev.to/proiacm'><img className='logo' src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="CiaraMaria's DEV Profile"/></a> &nbsp; &nbsp;

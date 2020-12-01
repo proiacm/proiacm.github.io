@@ -6,6 +6,7 @@ const Experience = () => {
 
     return (
         <div className='Experience'>
+             <hr/>
             <p className='experience'>A versatile and driven professional with 8+ years of work experience ranging from start-ups 
                 to some of the largest companies in the USA including:</p>
                 <img className='exp' src='https://i.imgur.com/AZ7wGW8.png'/> 
