@@ -8,20 +8,18 @@ import Typical from 'react-typical';
 import TextLoop from 'react-text-loop';
 import Experience from './Experience/Experience';
 import {Link} from 'react-scroll';
-import glamlex from './Demos/glamlex.mp4';
-import taskmaster from './Demos/taskmaster.mp4';
-import traveler from './Demos/traveler.mp4';
-import christmas from './Demos/christmascountdown.mp4';
+import glamlex from './Demos/glamlex.webp';
+import taskmaster from './Demos/taskmaster.webp';
+import christmas from './Demos/christmascountdown.webp';
 
 class App extends Component {
 
 
   state = { 
     projects: [
-     { name: 'Glamlex', link: 'https://github.com/proiacm/Glamlex', vid: glamlex , desc: 'React SPA freelance project blueprint for a future salon owner.'},
-     { name: 'Taskmaster', link:'https://github.com/proiacm/Taskmaster', vid: taskmaster, desc: 'Ruby todo app using MVC/CRUD with user functionality.'},
-     { name: 'Traveler', link: 'https://github.com/proiacm/traveler', vid: traveler, desc: 'JavaScript trip tracker with Rails API backend.'},
-     { name: 'Christmas', link: 'https://github.com/proiacm/Christmas', vid: christmas, desc: 'JavaScript and React countdown to the best day of the year!'}
+     { name: 'Glamlex', img: glamlex , desc: <a target='_blank' rel="noopener noreferrer" href='https://github.com/proiacm/Glamlex'>View Code</a>},
+     { name: 'Taskmaster', img: taskmaster, desc: <a target='_blank' rel="noopener noreferrer" href='https://github.com/proiacm/Taskmaster'>View Code</a>},
+     { name: 'Christmas Countdown', img: christmas, desc: <a target='_blank' rel="noopener noreferrer" href='https://github.com/proiacm/Christmas'>View Code</a>, desc2: <a target='_blank' rel="noopener noreferrer" href='https://proiacm.github.io/Christmas/'>View Live</a>}
    ]
  }
 
@@ -29,7 +27,7 @@ class App extends Component {
 
     let projectList = <div>
       {this.state.projects.map((project, index) => {
-        return <Projects key={index} name={project.name} link={project.link} video={project.vid} desc={project.desc} />
+        return <Projects key={index} name={project.name} demo={project.img} desc={project.desc} desc2={project.desc2}/>
       })}
     </div>
 
@@ -40,6 +38,7 @@ class App extends Component {
         wrapper="h1"/>} />
         <About />
         <Experience />
+        <hr/>
         {projectList}
         {/* <Link style={{ cursor: "pointer"}} to="nav" spy={true} smooth={true}><u><img src='https://i.imgur.com/hyJ4Bum.png' height="50" width="50"/></u></Link> */}
         <Contact loopText={<TextLoop interval={2000}>
