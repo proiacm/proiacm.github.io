@@ -1,24 +1,25 @@
-# My Website
-<!--- These are examples. See https://shields.io for others or to customize this set of shields. You might want to include dependencies, project status and licence info here --->
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-View live on: https://proiacm.github.io/
+Personal portfolio project made with &hearts;
 
-This is a minimal SPA built using React for my portfolio site.
+### Built With
 
+This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+* [React](https://reactjs.org)
+* [JavaScript](https://javascript.com)
+* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
-<!-- ## Contributors
-
-Thanks to the following people who have contributed to this project:
-
-* [@scottydocs](https://github.com/scottydocs) 📖
-* [@cainwatson](https://github.com/cainwatson) 🐛
-* [@calchuchesta](https://github.com/calchuchesta) 🐛 -->
-
-<!-- ## Contact
-
-If you want to contact me you can reach me at <your_email@address.com>. -->
-
+<!-- LICENSE -->
 ## License
-<!--- If you're not sure which open license to use see https://choosealicense.com/--->
 
-License Copyright 2020 proiacm
+License Copyright CiaraMaria Proia 2020
+
+
+
+<!-- CONTACT -->
+## Contact
+
+CiaraMaria - proiacm@gmail.com
+
+Project Link: [View Live](https://proiacm.github.io/)
