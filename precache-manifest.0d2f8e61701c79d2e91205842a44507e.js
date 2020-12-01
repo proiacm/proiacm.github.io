@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6638430ef039720b9dceba58e691642f",
+    "revision": "3b1b411041a451a4b56d9ca06cc97187",
     "url": "/index.html"
   },
   {
-    "revision": "c0407a4715908fef0569",
-    "url": "/static/css/main.36ede74c.chunk.css"
+    "revision": "cc7f5680a213a901cafe",
+    "url": "/static/css/main.225d265d.chunk.css"
   },
   {
     "revision": "69e76ba912f2f64b32e4",
@@ -16,24 +16,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.581d6acc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c0407a4715908fef0569",
-    "url": "/static/js/main.878b256a.chunk.js"
+    "revision": "cc7f5680a213a901cafe",
+    "url": "/static/js/main.6761d755.chunk.js"
   },
   {
     "revision": "0f99e981c8ce428747c8",
     "url": "/static/js/runtime-main.b41d253a.js"
   },
   {
-    "revision": "6e58ce37dd7d6468250b95af32ffd1f0",
-    "url": "/static/media/christmascountdown.6e58ce37.mp4"
+    "revision": "8c8c3ff8a806299da9530405f4a03617",
+    "url": "/static/media/CiaraMaria_Proia_Resume.8c8c3ff8.pdf"
   },
   {
-    "revision": "e727264a1acb78f188476c3504c2ce94",
-    "url": "/static/media/ciaramaria.e727264a.webp"
+    "revision": "84429736c07efece3d3ce301181bc74d",
+    "url": "/static/media/christmascountdown.84429736.webp"
   },
   {
-    "revision": "1d17b2907f67b379f7987deaead4ef5e",
-    "url": "/static/media/glamlex.1d17b290.mp4"
+    "revision": "55d7166144d2066f38a514a0f981face",
+    "url": "/static/media/ciaramaria.55d71661.webp"
+  },
+  {
+    "revision": "365461362bfd818857512365361fc32e",
+    "url": "/static/media/glamlex.36546136.webp"
   },
   {
     "revision": "127221aacdba4fddda071440727c8cba",
@@ -64,11 +68,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/sqlite.7cc3d432.png"
   },
   {
-    "revision": "332c28fdb4ce9630af597b44312804b0",
-    "url": "/static/media/taskmaster.332c28fd.mp4"
-  },
-  {
-    "revision": "4c032cce6d8c4545e45680701d7175ce",
-    "url": "/static/media/traveler.4c032cce.mp4"
+    "revision": "2384736cc55a9d4d4be99abe17cee67d",
+    "url": "/static/media/taskmaster.2384736c.webp"
   }
 ]);
