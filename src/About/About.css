@@ -15,7 +15,7 @@ img.About-img {
 }
 
 .About-text {
-  font-size: large;
+  /* font-size: large; */
   text-align: center;
   float: right;
   /* padding-right: 10px; */
