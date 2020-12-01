@@ -1,27 +1,34 @@
 {
   "files": {
-    "main.css": "/static/css/main.ff214fd6.chunk.css",
-    "main.js": "/static/js/main.43716563.chunk.js",
-    "main.js.map": "/static/js/main.43716563.chunk.js.map",
+    "main.css": "/static/css/main.36ede74c.chunk.css",
+    "main.js": "/static/js/main.878b256a.chunk.js",
+    "main.js.map": "/static/js/main.878b256a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b41d253a.js",
     "runtime-main.js.map": "/static/js/runtime-main.b41d253a.js.map",
-    "static/js/2.41bd6322.chunk.js": "/static/js/2.41bd6322.chunk.js",
-    "static/js/2.41bd6322.chunk.js.map": "/static/js/2.41bd6322.chunk.js.map",
+    "static/js/2.581d6acc.chunk.js": "/static/js/2.581d6acc.chunk.js",
+    "static/js/2.581d6acc.chunk.js.map": "/static/js/2.581d6acc.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.6853a2906650082bc960060d0345c825.js": "/precache-manifest.6853a2906650082bc960060d0345c825.js",
+    "precache-manifest.f6f6b0248079f1ab7e6da6143461e3ed.js": "/precache-manifest.f6f6b0248079f1ab7e6da6143461e3ed.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.ff214fd6.chunk.css.map": "/static/css/main.ff214fd6.chunk.css.map",
-    "static/js/2.41bd6322.chunk.js.LICENSE.txt": "/static/js/2.41bd6322.chunk.js.LICENSE.txt",
+    "static/css/main.36ede74c.chunk.css.map": "/static/css/main.36ede74c.chunk.css.map",
+    "static/js/2.581d6acc.chunk.js.LICENSE.txt": "/static/js/2.581d6acc.chunk.js.LICENSE.txt",
     "static/media/christmascountdown.mp4": "/static/media/christmascountdown.6e58ce37.mp4",
-    "static/media/ciaramaria.webp": "/static/media/ciaramaria.22a4b8be.webp",
+    "static/media/ciaramaria.webp": "/static/media/ciaramaria.e727264a.webp",
     "static/media/glamlex.mp4": "/static/media/glamlex.1d17b290.mp4",
+    "static/media/htmlcss.png": "/static/media/htmlcss.127221aa.png",
+    "static/media/lottie.png": "/static/media/lottie.a1acd747.png",
+    "static/media/node.png": "/static/media/node.521444a2.png",
+    "static/media/rails.png": "/static/media/rails.45e32c58.png",
+    "static/media/react.png": "/static/media/react.53f8a7cf.png",
+    "static/media/ruby.png": "/static/media/ruby.9beaf80c.png",
+    "static/media/sqlite.png": "/static/media/sqlite.7cc3d432.png",
     "static/media/taskmaster.mp4": "/static/media/taskmaster.332c28fd.mp4",
     "static/media/traveler.mp4": "/static/media/traveler.4c032cce.mp4"
   },
   "entrypoints": [
     "static/js/runtime-main.b41d253a.js",
-    "static/js/2.41bd6322.chunk.js",
-    "static/css/main.ff214fd6.chunk.css",
-    "static/js/main.43716563.chunk.js"
+    "static/js/2.581d6acc.chunk.js",
+    "static/css/main.36ede74c.chunk.css",
+    "static/js/main.878b256a.chunk.js"
   ]
 }
