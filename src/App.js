@@ -19,7 +19,7 @@ class App extends Component {
     projects: [
      { name: 'Glamlex', img: glamlex , desc: <a target='_blank' rel="noopener noreferrer" href='https://github.com/proiacm/Glamlex'>View Code</a>},
      { name: 'Taskmaster', img: taskmaster, desc: <a target='_blank' rel="noopener noreferrer" href='https://github.com/proiacm/Taskmaster'>View Code</a>},
-     { name: 'Christmas Countdown', img: christmas, desc: <a target='_blank' rel="noopener noreferrer" href='https://github.com/proiacm/Christmas'>View Code</a>}
+     { name: 'Christmas Countdown', img: christmas, desc: <a target='_blank' rel="noopener noreferrer" href='https://github.com/proiacm/Christmas'>View Code</a>, live: <a target='_blank' rel="noopener noreferrer" href='https://proiacm.github.io/Christmas/'>[View Live]</a>}
    ]
  }
 
@@ -27,7 +27,7 @@ class App extends Component {
 
     let projectList = <div>
       {this.state.projects.map((project, index) => {
-        return <Projects key={index} name={project.name} demo={project.img} desc={project.desc} />
+        return <Projects key={index} name={project.name} demo={project.img} desc={project.desc} live={project.live}/>
       })}
     </div>
 
