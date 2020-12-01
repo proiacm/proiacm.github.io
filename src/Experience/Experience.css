@@ -20,11 +20,11 @@ img.exp {
   .Experience {
     padding-left: 10%;
     padding-right: 10%;
-    font-size: 4vw;
+    font-size: 5vw;
   }
   img.exp {
     margin: 15px;
     height: auto;
-    width: 23%;
+    width: 24%;
   }
 }

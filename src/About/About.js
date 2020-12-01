@@ -13,8 +13,8 @@ import lottie from '../Images/lottie.png';
 
 const About = () => {
     return (
-            <div className='About' id='about'> 
-                        <div className='About-text'>
+            <div className='About'> 
+                        <div className='About-text' id='about'>
                                 <img className='About-img' src={profile} alt='CiaraMaria'/>       
                                 <h1  className='fun'>Designer | Developer | Dog-person</h1>
                                 Leveraging experience in building client relationships and passion for <br/>solving problems
