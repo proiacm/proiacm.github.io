@@ -7,7 +7,7 @@ Personal portfolio project made with &hearts;
 
 This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 * [React](https://reactjs.org)
-* [JavaScript](https://javascript.com)
+* [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 <!-- LICENSE -->
