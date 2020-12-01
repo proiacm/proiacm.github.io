@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.be29a26d.chunk.css",
+    "main.css": "/static/css/main.a20865fc.chunk.css",
     "main.js": "/static/js/main.7a0a1fd7.chunk.js",
     "main.js.map": "/static/js/main.7a0a1fd7.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b41d253a.js",
@@ -8,9 +8,9 @@
     "static/js/2.66031c6a.chunk.js": "/static/js/2.66031c6a.chunk.js",
     "static/js/2.66031c6a.chunk.js.map": "/static/js/2.66031c6a.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.de3f50130bc4d8dcad5684e46268cc59.js": "/precache-manifest.de3f50130bc4d8dcad5684e46268cc59.js",
+    "precache-manifest.17ac8af90ffe95992e49132f925e9267.js": "/precache-manifest.17ac8af90ffe95992e49132f925e9267.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.be29a26d.chunk.css.map": "/static/css/main.be29a26d.chunk.css.map",
+    "static/css/main.a20865fc.chunk.css.map": "/static/css/main.a20865fc.chunk.css.map",
     "static/js/2.66031c6a.chunk.js.LICENSE.txt": "/static/js/2.66031c6a.chunk.js.LICENSE.txt",
     "static/media/CiaraMaria_Proia_Resume.pdf": "/static/media/CiaraMaria_Proia_Resume.64a422fa.pdf",
     "static/media/christmascountdown.webp": "/static/media/christmascountdown.84429736.webp",
@@ -27,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.b41d253a.js",
     "static/js/2.66031c6a.chunk.js",
-    "static/css/main.be29a26d.chunk.css",
+    "static/css/main.a20865fc.chunk.css",
     "static/js/main.7a0a1fd7.chunk.js"
   ]
 }
