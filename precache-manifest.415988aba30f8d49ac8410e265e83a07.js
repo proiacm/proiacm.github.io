@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "081db97e8e1f437bcdedcf32d484aafa",
+    "revision": "96be2294b7454188e85899e2f5c89409",
     "url": "/index.html"
   },
   {
-    "revision": "8dbf63d2b1583bc8de72",
+    "revision": "dd906c19e4169ef4f662",
     "url": "/static/css/main.a20865fc.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.66031c6a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8dbf63d2b1583bc8de72",
-    "url": "/static/js/main.893e8823.chunk.js"
+    "revision": "dd906c19e4169ef4f662",
+    "url": "/static/js/main.11091a58.chunk.js"
   },
   {
     "revision": "0f99e981c8ce428747c8",
@@ -36,8 +36,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/ciaramaria.55d71661.webp"
   },
   {
-    "revision": "365461362bfd818857512365361fc32e",
-    "url": "/static/media/glamlex.36546136.webp"
+    "revision": "fbfbfa7dc38b71e483f626a920065896",
+    "url": "/static/media/glamlex.fbfbfa7d.webp"
   },
   {
     "revision": "a1acd7477e7bb62858550646c0c9f7f7",
