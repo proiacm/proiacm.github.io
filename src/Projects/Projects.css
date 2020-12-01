@@ -1,36 +1,28 @@
 
 .Project-card {
     background-color: #f3f1e9; 
-    width: 300px;
+    width: 30%;
     height: auto;
     display: inline-block;
     padding: 20px;
     font-family: 'Playfair Display', serif;
     color: #323231;
+    padding-bottom: 90px;
 }
-
-.Project {
-    margin: 10px;
-    box-shadow: 0 2px 9px #9099A2;
-    padding: 10px;
-	background: #f7f6f1;
-    border-radius: 4px;
-} 
-
-.Project:hover {
-    transform: scale(2.1);
-    transition: 900ms;
-    }
 
 .Project-img {
-    border: 1px solid #9099A2;
-    box-shadow: 0 2px 3px #9099A2;
-    border-radius: 4px;
+    border: 1px solid #f3f1e9;
+    box-shadow: 0 2px 3px #111111;
+    border-radius: 2px;
     display: block;
-    bottom: 80px;
     width: 100%;
     height: auto;
+    opacity: 0.7;
 }
+
+/* .Project-img:hover {
+    opacity: 1;
+}  */
 
 @media only screen and (max-width: 600px){
 
@@ -40,7 +32,6 @@
     }
 
     .Project-card {
-       margin-left: -35px;
        width: 90%;
        height: auto;
        padding-bottom: 90px;
