@@ -2,8 +2,6 @@
     padding-bottom: 230px;
     text-align: center;
     color: #323231;
-    /* font-family: 'Dancing Script', cursive; */
-    font-family: 'Playfair Display', serif;
     font-size: small;
     background-image: linear-gradient(#f3f1e9, #ebb7a8cb 60%);
     position: relative;
@@ -16,8 +14,12 @@
     );
 }
 
-.Nav-bar {
+.Animated {
   font-family: 'Playfair Display', serif;
+  font-style: italic;
+}
+
+.Nav-bar {
   font-size: large;
 }
 
