@@ -48,6 +48,7 @@ img.About-img {
 }
 
 @media only screen and (max-width: 600px){
+
     .About-text {
       margin-left: 10px;
       font-size: 4vw;
@@ -56,9 +57,6 @@ img.About-img {
     img.About-img {
       width: 60%;
       padding-bottom: 20px;
-    }
-    .fun {
-      font-size: 5vw;
     }
     .tech-stack {
       width: 25%;
