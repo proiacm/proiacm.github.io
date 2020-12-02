@@ -12,11 +12,14 @@
       200% 110%,
       0 calc(100% - 190px)
     );
+    font-family: 'Trirong', serif;
+
 }
 
 .Animated {
-  font-family: 'Playfair Display', serif;
-  font-style: italic;
+  font-family: 'Cinzel', serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .Nav-bar {

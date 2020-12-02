@@ -6,6 +6,15 @@
     margin-bottom: -50px;
     background-image: linear-gradient(#97bda3 60%, #dcecda);
     clip-path: polygon(0 6%, 100% 36%, 100% 100%, 0% 100%); 
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'Trirong', serif;
+
+}
+
+.animated {
+    font-family: 'Cinzel', serif;
+
 }
  
 p.footer {

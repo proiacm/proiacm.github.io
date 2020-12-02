@@ -4,6 +4,10 @@
   padding-right: 400px;
   position: relative;
   height: 300px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Trirong', serif;
+
 }
 
 img.exp {

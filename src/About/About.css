@@ -1,6 +1,9 @@
 .About {
     padding-top: 60px;
     margin-top: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'Trirong', serif;
 }
 
 img.About-img {
@@ -25,6 +28,8 @@ img.About-img {
   -webkit-background-clip: text;
   text-transform: uppercase;
   padding-bottom: 3px;
+  font-family: 'Cinzel', serif;
+
 }
 
 .funfact {

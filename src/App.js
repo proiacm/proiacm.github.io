@@ -38,10 +38,9 @@ class App extends Component {
         wrapper="h1"/>} />
         <About />
         <Experience />
-        <hr/>
+        <hr/> 
         <h1 className='projectheader' id='projects'>Featured Projects</h1>
         {projectList}
-        {/* <Link style={{ cursor: "pointer"}} to="nav" spy={true} smooth={true}><u><img src='https://i.imgur.com/hyJ4Bum.png' height="50" width="50"/></u></Link> */}
         <Contact loopText={<TextLoop interval={2000}>
         <Link spy={true} smooth={true}><span>build something together.</span></Link>
         <Link spy={true} smooth={true}><span>solve a problem.</span></Link>
