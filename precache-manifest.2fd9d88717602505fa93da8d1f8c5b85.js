@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cb359a581623896beb6884c8df467bb1",
+    "revision": "0dc7094265b60cc8856971964d7e6a51",
     "url": "/index.html"
   },
   {
-    "revision": "f88074736ab2e74a9cba",
+    "revision": "c12a8773d4121dbd9ee4",
     "url": "/static/css/main.d156e740.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.66031c6a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f88074736ab2e74a9cba",
-    "url": "/static/js/main.67ff6dec.chunk.js"
+    "revision": "c12a8773d4121dbd9ee4",
+    "url": "/static/js/main.17fe4e2c.chunk.js"
   },
   {
     "revision": "0f99e981c8ce428747c8",
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/CiaraMaria_Proia_Resume.ffd7f0e4.pdf"
   },
   {
-    "revision": "d090bd746b83a3a19c9134e6a9faaabf",
-    "url": "/static/media/christmascountdown.d090bd74.webp"
+    "revision": "f0b7c5d24949708ea4594d312a867476",
+    "url": "/static/media/christmascountdown.f0b7c5d2.webp"
   },
   {
     "revision": "55d7166144d2066f38a514a0f981face",
