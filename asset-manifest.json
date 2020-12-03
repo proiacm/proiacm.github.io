@@ -1,33 +1,31 @@
 {
   "files": {
-    "main.css": "/static/css/main.d156e740.chunk.css",
-    "main.js": "/static/js/main.17fe4e2c.chunk.js",
-    "main.js.map": "/static/js/main.17fe4e2c.chunk.js.map",
+    "main.css": "/static/css/main.b22ce6e1.chunk.css",
+    "main.js": "/static/js/main.0223924d.chunk.js",
+    "main.js.map": "/static/js/main.0223924d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b41d253a.js",
     "runtime-main.js.map": "/static/js/runtime-main.b41d253a.js.map",
-    "static/js/2.66031c6a.chunk.js": "/static/js/2.66031c6a.chunk.js",
-    "static/js/2.66031c6a.chunk.js.map": "/static/js/2.66031c6a.chunk.js.map",
+    "static/js/2.581d6acc.chunk.js": "/static/js/2.581d6acc.chunk.js",
+    "static/js/2.581d6acc.chunk.js.map": "/static/js/2.581d6acc.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.2fd9d88717602505fa93da8d1f8c5b85.js": "/precache-manifest.2fd9d88717602505fa93da8d1f8c5b85.js",
+    "precache-manifest.b81e93f9f5fce76d07f945d7a6155f90.js": "/precache-manifest.b81e93f9f5fce76d07f945d7a6155f90.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.d156e740.chunk.css.map": "/static/css/main.d156e740.chunk.css.map",
-    "static/js/2.66031c6a.chunk.js.LICENSE.txt": "/static/js/2.66031c6a.chunk.js.LICENSE.txt",
-    "static/media/CiaraMaria_Proia_Resume.pdf": "/static/media/CiaraMaria_Proia_Resume.ffd7f0e4.pdf",
+    "static/css/main.b22ce6e1.chunk.css.map": "/static/css/main.b22ce6e1.chunk.css.map",
+    "static/js/2.581d6acc.chunk.js.LICENSE.txt": "/static/js/2.581d6acc.chunk.js.LICENSE.txt",
+    "static/media/CiaraMaria_Proia_Resume.pdf": "/static/media/CiaraMaria_Proia_Resume.43dab010.pdf",
     "static/media/christmascountdown.webp": "/static/media/christmascountdown.f0b7c5d2.webp",
     "static/media/ciaramaria.webp": "/static/media/ciaramaria.55d71661.webp",
-    "static/media/glamlex.webp": "/static/media/glamlex.fbfbfa7d.webp",
+    "static/media/firebase.png": "/static/media/firebase.8f14a569.png",
+    "static/media/glamlex.webp": "/static/media/glamlex.789f2495.webp",
     "static/media/lottie.png": "/static/media/lottie.a1acd747.png",
     "static/media/node.png": "/static/media/node.521444a2.png",
-    "static/media/rails.png": "/static/media/rails.45e32c58.png",
-    "static/media/react.png": "/static/media/react.53f8a7cf.png",
-    "static/media/ruby.png": "/static/media/ruby.9beaf80c.png",
     "static/media/sqlite.png": "/static/media/sqlite.7cc3d432.png",
-    "static/media/taskmaster.webp": "/static/media/taskmaster.2384736c.webp"
+    "static/media/untriggered.webp": "/static/media/untriggered.8e89efe9.webp"
   },
   "entrypoints": [
     "static/js/runtime-main.b41d253a.js",
-    "static/js/2.66031c6a.chunk.js",
-    "static/css/main.d156e740.chunk.css",
-    "static/js/main.17fe4e2c.chunk.js"
+    "static/js/2.581d6acc.chunk.js",
+    "static/css/main.b22ce6e1.chunk.css",
+    "static/js/main.0223924d.chunk.js"
   ]
 }
