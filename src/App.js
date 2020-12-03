@@ -17,8 +17,8 @@ class App extends Component {
 
   state = { 
     projects: [
-     { name: 'Glamlex', img: glamlex , desc: <a target='_blank' rel="noopener noreferrer" href='https://github.com/proiacm/Glamlex'>View Code</a>, live: <a target='_blank' rel="noopener noreferrer" href='https://proiacm.github.io/Glamlex/'>[View Live]</a>},
-     { name: 'Christmas Countdown', img: christmas, desc: <a target='_blank' rel="noopener noreferrer" href='https://github.com/proiacm/Christmas'>View Code</a>, live: <a target='_blank' rel="noopener noreferrer" href='https://proiacm.github.io/Christmas/'>[View Live]</a>},
+     { name: 'Glamlex', img: glamlex , desc: <a target='_blank' rel="noopener noreferrer" href='https://github.com/proiacm/Glamlex'>View Code</a>, live: <a className='live' target='_blank' rel="noopener noreferrer" href='https://proiacm.github.io/Glamlex/'>[View Live]</a>},
+     { name: 'Christmas Countdown', img: christmas, desc: <a target='_blank' rel="noopener noreferrer" href='https://github.com/proiacm/Christmas'>View Code</a>, live: <a className= 'live' target='_blank' rel="noopener noreferrer" href='https://proiacm.github.io/Christmas/'>[View Live]</a>},
      { name: 'Taskmaster', img: taskmaster, desc: <a target='_blank' rel="noopener noreferrer" href='https://github.com/proiacm/Taskmaster'>View Code</a>}
    ]
  }

@@ -47,4 +47,9 @@ h1.projectheader {
     .experience {
       font-size: 100%;
     }
+
+    h1.projectheader {
+        color: #323231;
+        padding-top: 50px;
+    }
   }

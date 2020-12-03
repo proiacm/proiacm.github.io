@@ -39,17 +39,22 @@ img.About-img {
 
 .tech-stack {
   width: 10%;
-  height: auto;
+  padding: 20px;
 }
 
-.tech-stacktop {
-  width: 5.5%;
-  height: auto;
+.tech-stack1 {
+  width: 6%;
+  padding: 20px;
 }
 
-.tech-stackbottom {
-  width: 7%;
-  height: auto;
+.tech-stack:hover {
+  transition: 700ms;
+  opacity: 0.3;
+}
+
+.tech-stack1:hover {
+  transition: 700ms;
+  opacity: 0.3;
 }
 
 @media only screen and (max-width: 600px){
@@ -59,12 +64,22 @@ img.About-img {
       font-size: 4vw;
       padding-right: 10px;
     }
+
+    .About-title {
+      color: #323231;
+    }
+
     img.About-img {
       width: 60%;
       padding-bottom: 20px;
     }
     .tech-stack {
-      width: 25%;
+      width: 20%;
       height: auto;
+      padding: 5px;
+    }
+
+    .tech-stack1 {
+      width: 10%;
     }
   }

@@ -18,14 +18,15 @@ const About = () => {
                                 <h1 className='About-title'>Developer | Designer | Dog-person</h1>
                                 <p>Leveraging experience in building client relationships and a passion for <br/>solving problems
                                 while developing stunning, useable applications.</p>
-                                <p className='funfact'>Fun fact: I have lived in North America, Central America, and Europe.</p>                                <img className='tech-stacktop' src={js} alt='js'/>
+                                <p className='funfact'>Fun fact: I have lived in North America, Central America, and Europe.</p>                                
+                                <img className='tech-stack1' src={js} alt='js'/>
                                 <img className='tech-stack' src={react} alt='react'/>
                                 <img className='tech-stack' src={ruby} alt='ruby'/>  
                                 <img className='tech-stack' src={rails} alt='rails'/>  
                                  <br/>
-                                <img className='tech-stackbottom' src={node} alt='node'/>  
-                                <img className='tech-stackbottom' src={sqlite} alt='sqlite'/>  
-                                <img className='tech-stackbottom' src={npm} alt='npm'/>  
+                                <img className='tech-stack' src={node} alt='node'/>  
+                                <img className='tech-stack' src={sqlite} alt='sqlite'/>  
+                                <img className='tech-stack' src={npm} alt='npm'/>  
                                 <img className='tech-stack' src={lottie} alt='lottie'/>   
                                 <br/><br/>    
                         </div>
