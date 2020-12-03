@@ -28,32 +28,37 @@ img.About-img {
   -webkit-background-clip: text;
   text-transform: uppercase;
   padding-bottom: 3px;
-  font-family: 'Cinzel', serif;
-
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .funfact {
   font-style: italic;
+  padding-bottom: 30px;
 }
 
 
 .tech-stack {
-  width: 10%;
-  padding: 20px;
+  width: 4%;
+  padding: 5px;
 }
 
 .tech-stack1 {
   width: 6%;
-  padding: 20px;
+  padding: 5px;
 }
 
-.tech-stack:hover {
-  transition: 700ms;
-  opacity: 0.3;
+.tech-stack2 {
+  width: 10%;
+  padding: 5px;
 }
 
-.tech-stack1:hover {
-  transition: 700ms;
+.tech-stack3 {
+  width: 3%;
+  padding: 5px;
+}
+
+.tech-stack:hover, .tech-stack1:hover, .tech-stack2:hover, .tech-stack3:hover {
+  transition: 500ms;
   opacity: 0.3;
 }
 
@@ -67,6 +72,7 @@ img.About-img {
 
     .About-title {
       color: #323231;
+      font-size: 7vw;
     }
 
     img.About-img {
@@ -74,12 +80,28 @@ img.About-img {
       padding-bottom: 20px;
     }
     .tech-stack {
-      width: 20%;
+      width: 10%;
       height: auto;
       padding: 5px;
     }
 
     .tech-stack1 {
-      width: 10%;
+      width: 15%;
+      height: auto;
+      padding: 5px;
     }
+
+    .tech-stack2 {
+      width: 30%;
+      height: auto;
+      padding: 5px;
+    }
+
+    .tech-stack3 {
+      width: 10%;
+      height: auto;
+      padding: 5px;
+    }
+
+   
   }

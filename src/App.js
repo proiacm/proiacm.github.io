@@ -9,7 +9,7 @@ import TextLoop from 'react-text-loop';
 import Experience from './Experience/Experience';
 import {Link} from 'react-scroll';
 import glamlex from './Demos/glamlex.webp';
-import taskmaster from './Demos/taskmaster.webp';
+import untriggered from './Demos/untriggered.webp';
 import christmas from './Demos/christmascountdown.webp';
 
 class App extends Component {
@@ -17,9 +17,9 @@ class App extends Component {
 
   state = { 
     projects: [
-     { name: 'Glamlex', img: glamlex , desc: <a target='_blank' rel="noopener noreferrer" href='https://github.com/proiacm/Glamlex'>View Code</a>, live: <a className='live' target='_blank' rel="noopener noreferrer" href='https://proiacm.github.io/Glamlex/'>[View Live]</a>},
-     { name: 'Christmas Countdown', img: christmas, desc: <a target='_blank' rel="noopener noreferrer" href='https://github.com/proiacm/Christmas'>View Code</a>, live: <a className= 'live' target='_blank' rel="noopener noreferrer" href='https://proiacm.github.io/Christmas/'>[View Live]</a>},
-     { name: 'Taskmaster', img: taskmaster, desc: <a target='_blank' rel="noopener noreferrer" href='https://github.com/proiacm/Taskmaster'>View Code</a>}
+     { name: 'Glamlex', img: glamlex , link: <a target='_blank' rel="noopener noreferrer" href='https://github.com/proiacm/Glamlex'>View Code</a>, live: <a className='live' target='_blank' rel="noopener noreferrer" href='https://proiacm.github.io/Glamlex/'>[View Live]</a>, desc: 'React/JavaScript freelance project blueprint'},
+     { name: 'Christmas Countdown', img: christmas, link: <a target='_blank' rel="noopener noreferrer" href='https://github.com/proiacm/Christmas'>View Code</a>, live: <a className= 'live' target='_blank' rel="noopener noreferrer" href='https://proiacm.github.io/Christmas/'>[View Live]</a>, desc: 'React/JavaScript countdown timer'},
+     { name: 'Untriggered', img: untriggered, link: <a target='_blank' rel="noopener noreferrer" href='https://github.com/proiacm/untriggered'>View Code</a>, live: '[Live Soon]', desc: 'Ruby on Rails app with third-party auth'}
    ]
  }
 
@@ -27,7 +27,7 @@ class App extends Component {
 
     let projectList = <div>
       {this.state.projects.map((project, index) => {
-        return <Projects key={index} name={project.name} demo={project.img} desc={project.desc} live={project.live} />
+        return <Projects key={index} name={project.name} demo={project.img} link={project.link} live={project.live} desc={project.desc}/>
       })}
     </div>
 
