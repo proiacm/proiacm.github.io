@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.b22ce6e1.chunk.css",
-    "main.js": "/static/js/main.0223924d.chunk.js",
-    "main.js.map": "/static/js/main.0223924d.chunk.js.map",
+    "main.css": "/static/css/main.c5bb326a.chunk.css",
+    "main.js": "/static/js/main.6ca4240c.chunk.js",
+    "main.js.map": "/static/js/main.6ca4240c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b41d253a.js",
     "runtime-main.js.map": "/static/js/runtime-main.b41d253a.js.map",
     "static/js/2.581d6acc.chunk.js": "/static/js/2.581d6acc.chunk.js",
     "static/js/2.581d6acc.chunk.js.map": "/static/js/2.581d6acc.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.b81e93f9f5fce76d07f945d7a6155f90.js": "/precache-manifest.b81e93f9f5fce76d07f945d7a6155f90.js",
+    "precache-manifest.79ef68c4e31fe7f8377993398d31cbfc.js": "/precache-manifest.79ef68c4e31fe7f8377993398d31cbfc.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.b22ce6e1.chunk.css.map": "/static/css/main.b22ce6e1.chunk.css.map",
+    "static/css/main.c5bb326a.chunk.css.map": "/static/css/main.c5bb326a.chunk.css.map",
     "static/js/2.581d6acc.chunk.js.LICENSE.txt": "/static/js/2.581d6acc.chunk.js.LICENSE.txt",
     "static/media/CiaraMaria_Proia_Resume.pdf": "/static/media/CiaraMaria_Proia_Resume.43dab010.pdf",
-    "static/media/christmascountdown.webp": "/static/media/christmascountdown.f0b7c5d2.webp",
+    "static/media/christmascountdown.webp": "/static/media/christmascountdown.b574d5a1.webp",
     "static/media/ciaramaria.webp": "/static/media/ciaramaria.55d71661.webp",
     "static/media/firebase.png": "/static/media/firebase.8f14a569.png",
     "static/media/glamlex.webp": "/static/media/glamlex.789f2495.webp",
@@ -25,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.b41d253a.js",
     "static/js/2.581d6acc.chunk.js",
-    "static/css/main.b22ce6e1.chunk.css",
-    "static/js/main.0223924d.chunk.js"
+    "static/css/main.c5bb326a.chunk.css",
+    "static/js/main.6ca4240c.chunk.js"
   ]
 }
