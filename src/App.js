@@ -17,8 +17,8 @@ class App extends Component {
 
   state = { 
     projects: [
-     { name: 'Glamlex', img: glamlex , link: <a target='_blank' rel="noopener noreferrer" href='https://github.com/proiacm/Glamlex'>View Code</a>, live: <a className='live' target='_blank' rel="noopener noreferrer" href='https://proiacm.github.io/Glamlex/'>[View Live]</a>, desc: 'React/JavaScript freelance project blueprint'},
-     { name: 'Christmas Countdown', img: christmas, link: <a target='_blank' rel="noopener noreferrer" href='https://github.com/proiacm/Christmas'>View Code</a>, live: <a className= 'live' target='_blank' rel="noopener noreferrer" href='https://proiacm.github.io/Christmas/'>[View Live]</a>, desc: 'React/JavaScript countdown timer'},
+     { name: 'Glamlex', img: glamlex , link: <a target='_blank' rel="noopener noreferrer" href='https://github.com/proiacm/Glamlex'>View Code</a>, live: <a className='live' target='_blank' rel="noopener noreferrer" href='https://proiacm.github.io/Glamlex/'>[Live Demo]</a>, desc: 'React/JavaScript freelance project blueprint'},
+     { name: 'Christmas Countdown', img: christmas, link: <a target='_blank' rel="noopener noreferrer" href='https://github.com/proiacm/Christmas'>View Code</a>, live: <a className= 'live' target='_blank' rel="noopener noreferrer" href='https://proiacm.github.io/Christmas/'>[Live Demo]</a>, desc: 'React/JavaScript countdown timer'},
      { name: 'Untriggered', img: untriggered, link: <a target='_blank' rel="noopener noreferrer" href='https://github.com/proiacm/untriggered'>View Code</a>, live: '[Live Soon]', desc: 'Ruby on Rails app with third-party auth'}
    ]
  }
@@ -37,9 +37,8 @@ class App extends Component {
         loop={1}
         wrapper="h1"/>} />
         <About />
-        <Experience />
-        <hr/> 
-        <h1 className='projectheader' id='projects'>Featured Projects</h1>
+        <Experience /> 
+        <h2 className='projectheader' id='projects'>Featured Projects</h2>
         {projectList}
         <Contact loopText={<TextLoop interval={2000}>
         <Link spy={true} smooth={true}><span>build something together.</span></Link>

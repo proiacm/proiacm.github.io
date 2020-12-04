@@ -2,7 +2,7 @@
   width: fixed;
   height: fixed;
   text-align: center;
-  background-color: #f3f1e9;
+  background-color: #F7F4F2;
   overflow: hidden;
   font-family: Georgia, 'Times New Roman', Times, serif;  color: #323231;
   -webkit-font-smoothing: antialiased;
@@ -21,34 +21,23 @@ a:visited {
   color: #323231;
 }
 
-h1.projectheader {
-  /* border: 1px solid #C0C9CB;
-  box-shadow: 0 2px 3px #C0C9CB;
-  background-color: #f7f6f1; */
-   background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
-  background-size: cover;
-  color: transparent;
-  -moz-background-clip: text;
-  -webkit-background-clip: text;
+.projectheader {
   text-transform: uppercase;
-  /* font-size: 25px; */
-  /* line-height: .75; */
-  padding-bottom: 3px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-top: 20px;
 }
 
 @media only screen and (max-width: 600px){
 
-  .animated-text {
+    .animated-text {
       font-size: 100%;
-     
     }
-  
+    
     .experience {
       font-size: 100%;
     }
 
     h1.projectheader {
-        color: #323231;
-        padding-top: 50px;
+      color: #323231;
     }
   }
