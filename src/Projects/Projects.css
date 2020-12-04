@@ -1,17 +1,15 @@
 
-
 .Project-card {
-    background-color: #f3f1e9; 
+    background-color: #F7F4F2; 
     width: 30%;
     height: auto;
     display: inline-block;
-    padding: 20px;
+    padding: 7px;
     color: #323231;
     padding-bottom: 90px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-family: 'Trirong', serif;
-
 }
 
 .image {
@@ -21,7 +19,7 @@
     height: auto;
     transition: 700ms;
     backface-visibility: hidden;
-    border: 1px solid #323231;
+    border: 3px solid #323231;
   }
 
 .text {
@@ -49,7 +47,7 @@
   }
 
 a.live:hover {
-  color: #97BCA2;
+  color: #cfa296cb;
 }
 
 
@@ -64,7 +62,7 @@ a.live:hover {
     .Project-card {
        width: 90%;
        height: auto;
-       padding-bottom: 90px;
+       padding-bottom: 50px;
        font-size: 5vw;
     }
 
