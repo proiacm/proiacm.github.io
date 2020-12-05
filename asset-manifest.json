@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.47267968.chunk.css",
-    "main.js": "/static/js/main.40ab795c.chunk.js",
-    "main.js.map": "/static/js/main.40ab795c.chunk.js.map",
+    "main.css": "/static/css/main.c62c7de4.chunk.css",
+    "main.js": "/static/js/main.fe9dfc75.chunk.js",
+    "main.js.map": "/static/js/main.fe9dfc75.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b41d253a.js",
     "runtime-main.js.map": "/static/js/runtime-main.b41d253a.js.map",
-    "static/js/2.cf806804.chunk.js": "/static/js/2.cf806804.chunk.js",
-    "static/js/2.cf806804.chunk.js.map": "/static/js/2.cf806804.chunk.js.map",
+    "static/js/2.44dbf71d.chunk.js": "/static/js/2.44dbf71d.chunk.js",
+    "static/js/2.44dbf71d.chunk.js.map": "/static/js/2.44dbf71d.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.5103409842c0e79b76c251f8541f6766.js": "/precache-manifest.5103409842c0e79b76c251f8541f6766.js",
+    "precache-manifest.6e47d7bfccfdb66128623ffa58f7b5f2.js": "/precache-manifest.6e47d7bfccfdb66128623ffa58f7b5f2.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.47267968.chunk.css.map": "/static/css/main.47267968.chunk.css.map",
-    "static/js/2.cf806804.chunk.js.LICENSE.txt": "/static/js/2.cf806804.chunk.js.LICENSE.txt",
-    "static/media/CiaraMaria_Proia_Resume.pdf": "/static/media/CiaraMaria_Proia_Resume.43dab010.pdf",
+    "static/css/main.c62c7de4.chunk.css.map": "/static/css/main.c62c7de4.chunk.css.map",
+    "static/js/2.44dbf71d.chunk.js.LICENSE.txt": "/static/js/2.44dbf71d.chunk.js.LICENSE.txt",
+    "static/media/CiaraMaria_Proia_Resume.pdf": "/static/media/CiaraMaria_Proia_Resume.3dc1aa91.pdf",
     "static/media/christmascountdown.webp": "/static/media/christmascountdown.a3c4275e.webp",
-    "static/media/ciaramaria.webp": "/static/media/ciaramaria.ff43a6c2.webp",
+    "static/media/cm.png": "/static/media/cm.33e8fb03.png",
     "static/media/glamlex.webp": "/static/media/glamlex.0aa4994f.webp",
     "static/media/untriggered.webp": "/static/media/untriggered.f10d3f63.webp"
   },
   "entrypoints": [
     "static/js/runtime-main.b41d253a.js",
-    "static/js/2.cf806804.chunk.js",
-    "static/css/main.47267968.chunk.css",
-    "static/js/main.40ab795c.chunk.js"
+    "static/js/2.44dbf71d.chunk.js",
+    "static/css/main.c62c7de4.chunk.css",
+    "static/js/main.fe9dfc75.chunk.js"
   ]
 }
