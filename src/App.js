@@ -4,9 +4,7 @@ import About from './About/About';
 import Contact from './Contact/Contact';
 import Projects from './Projects/Projects';
 import Nav from './Nav/Nav';
-import Typical from 'react-typical';
 import TextLoop from 'react-text-loop';
-import Experience from './Experience/Experience';
 import {Link} from 'react-scroll';
 import glamlex from './Demos/glamlex.webp';
 import untriggered from './Demos/untriggered.webp';
@@ -33,11 +31,8 @@ class App extends Component {
 
     return (
       <div className="App">
-        <Nav animatedText={<Typical className='animated-text' steps={['Hi, I\'m CiaraMaria!', 1000]}
-        loop={1}
-        wrapper="h1"/>} />
+        <Nav />
         <About />
-        <Experience /> 
         <h2 className='projectheader' id='projects'>Featured Projects</h2>
         {projectList}
         <Contact loopText={<TextLoop interval={2000}>
