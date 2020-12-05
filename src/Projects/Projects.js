@@ -7,7 +7,7 @@ const Projects = (props) => {
         <div className='Project-card'>
             <strong>{props.name} &nbsp; {props.live}</strong><br/>
             {props.desc}
-           <img className='image' src={props.demo}/>
+           <img className='image' alt='project' src={props.demo}/>
             <p className='text'>{props.link}</p>
         </div>
     )
