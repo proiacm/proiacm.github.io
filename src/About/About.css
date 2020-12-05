@@ -7,21 +7,19 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-size: cover;
+  margin-bottom: 550px;
 }
 
 img.About-img {
-  width: 300;
-  height: 280px;
-  border-radius: 2px;
-  box-shadow: 25px 25px 4px  #CCBEB8;
+  width: 80%;
+  height: auto;
   padding-top: 20px;
-  
 }
 
 .container {
   margin-left: 125px;
   position: relative;
-  height: 340px;
+  height: 300px;
   width: 260px;
 }
 
@@ -46,7 +44,7 @@ img.About-img {
   color: #323231;
   font-size: 15px;
   position: absolute;
-  top: 40%;
+  top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -57,7 +55,7 @@ img.About-img {
 
 
 .About-text {
-  text-align: center;
+  text-align: left;
   font-family: 'Trirong', serif;
   font-size: 16px;
 }
@@ -66,7 +64,34 @@ img.About-img {
   text-transform: uppercase;
   font-family: Georgia, 'Times New Roman', Times, serif;
   white-space: nowrap;
+  margin-top: -5px;
 }
+
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ededed 5%, #c2c2c2 100%);
+	background-color:#ededed;
+	border-radius:2px;
+	border:1px solid #c9c9c9;
+	display:inline-block;
+	cursor:pointer;
+	color:#5e5e5e;
+	font-size:15px;
+	font-weight:bold;
+	padding:7px 7px;
+	text-decoration:none;
+  text-shadow:0px 1px 0px #ffffff;
+  margin-left: 180px;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #c2c2c2 5%, #ededed 100%);
+	background-color:#c2c2c2;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
 
 @media only screen and (max-width: 600px){
 
@@ -91,5 +116,10 @@ img.About-img {
 
     .container {
       display: none;
+    }
+
+    .myButton {
+      margin-left: 110px;
+      font-size: 20px;
     }
   }
