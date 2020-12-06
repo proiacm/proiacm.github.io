@@ -11,10 +11,10 @@
 .home-title {
     text-align: center;
     color: #323231;
-    background-image: linear-gradient(#F7F4F2, #CCBEB8 60%);
+    background-image: linear-gradient(#F7F4F2, #CCBEB8 70%);
     background-size: cover;
     position: relative;
-    height: 400px;
+    height: 350px;
     clip-path: polygon(
       0 0,
       200% 0,
@@ -30,15 +30,14 @@
 
 
 .home-title{
-  padding-top: 100px;
-  font-size: 50px;
+  font-size: 55px;
   font-family: 'Cinzel', serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 
-.home-title span{
+/* .home-title span{
     position: relative;
     overflow: hidden;
     display: block;
@@ -87,7 +86,7 @@
 @keyframes a-ltr-before{
     0% {transform: translateX(0)}
     100% {transform: translateX(200%)}
-}
+} */
 
 @media only screen and (max-width: 600px){
     .Nav-bar {
