@@ -1,27 +1,32 @@
 {
   "files": {
-    "main.css": "/static/css/main.a0e6b0f9.chunk.css",
-    "main.js": "/static/js/main.3f9370dd.chunk.js",
-    "main.js.map": "/static/js/main.3f9370dd.chunk.js.map",
+    "main.css": "/static/css/main.a97b426b.chunk.css",
+    "main.js": "/static/js/main.84afc338.chunk.js",
+    "main.js.map": "/static/js/main.84afc338.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b41d253a.js",
     "runtime-main.js.map": "/static/js/runtime-main.b41d253a.js.map",
-    "static/js/2.44dbf71d.chunk.js": "/static/js/2.44dbf71d.chunk.js",
-    "static/js/2.44dbf71d.chunk.js.map": "/static/js/2.44dbf71d.chunk.js.map",
+    "static/css/2.22ca87da.chunk.css": "/static/css/2.22ca87da.chunk.css",
+    "static/js/2.f9eabfc7.chunk.js": "/static/js/2.f9eabfc7.chunk.js",
+    "static/js/2.f9eabfc7.chunk.js.map": "/static/js/2.f9eabfc7.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.e0a8e3a83d26613d510aeca7691fb787.js": "/precache-manifest.e0a8e3a83d26613d510aeca7691fb787.js",
+    "precache-manifest.6e42e461cdc22563e38398d3201b1b8f.js": "/precache-manifest.6e42e461cdc22563e38398d3201b1b8f.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.a0e6b0f9.chunk.css.map": "/static/css/main.a0e6b0f9.chunk.css.map",
-    "static/js/2.44dbf71d.chunk.js.LICENSE.txt": "/static/js/2.44dbf71d.chunk.js.LICENSE.txt",
-    "static/media/CiaraMaria_Proia_Resume.pdf": "/static/media/CiaraMaria_Proia_Resume.3dc1aa91.pdf",
+    "static/css/2.22ca87da.chunk.css.map": "/static/css/2.22ca87da.chunk.css.map",
+    "static/css/main.a97b426b.chunk.css.map": "/static/css/main.a97b426b.chunk.css.map",
+    "static/js/2.f9eabfc7.chunk.js.LICENSE.txt": "/static/js/2.f9eabfc7.chunk.js.LICENSE.txt",
+    "static/media/CiaraMaria_Proia_Resume.pdf": "/static/media/CiaraMaria_Proia_Resume.4fb6bc54.pdf",
     "static/media/christmascountdown.webp": "/static/media/christmascountdown.a3c4275e.webp",
     "static/media/cm.png": "/static/media/cm.33e8fb03.png",
     "static/media/glamlex.webp": "/static/media/glamlex.0aa4994f.webp",
-    "static/media/untriggered.webp": "/static/media/untriggered.f10d3f63.webp"
+    "static/media/school.d8964313.svg": "/static/media/school.d8964313.svg",
+    "static/media/untriggered.webp": "/static/media/untriggered.f10d3f63.webp",
+    "static/media/work.1167e2eb.svg": "/static/media/work.1167e2eb.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.b41d253a.js",
-    "static/js/2.44dbf71d.chunk.js",
-    "static/css/main.a0e6b0f9.chunk.css",
-    "static/js/main.3f9370dd.chunk.js"
+    "static/css/2.22ca87da.chunk.css",
+    "static/js/2.f9eabfc7.chunk.js",
+    "static/css/main.a97b426b.chunk.css",
+    "static/js/main.84afc338.chunk.js"
   ]
 }
