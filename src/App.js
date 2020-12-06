@@ -9,6 +9,8 @@ import {Link} from 'react-scroll';
 import glamlex from './Demos/glamlex.webp';
 import untriggered from './Demos/untriggered.webp';
 import christmas from './Demos/christmascountdown.webp';
+import Timeline from './Timeline/Timeline';
+import Birds from './Birds/Birds';
 
 class App extends Component {
 
@@ -31,10 +33,12 @@ class App extends Component {
 
     return (
       <div className="App">
+         <Birds />
         <Nav />
         <About />
-        <h2 className='projectheader' id='projects'>Featured Projects</h2>
-        {projectList}
+        <Timeline />
+        <h1 className='projectheader' id='projects'>Featured Projects</h1>
+        {projectList} <br/>
         <Contact loopText={<TextLoop interval={2000}>
         <Link spy={true} smooth={true}><span>build something together.</span></Link>
         <Link spy={true} smooth={true}><span>solve a problem.</span></Link>

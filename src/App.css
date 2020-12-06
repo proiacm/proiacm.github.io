@@ -4,7 +4,8 @@
   text-align: center;
   background-color: #F7F4F2;
   overflow: hidden;
-  font-family: Georgia, 'Times New Roman', Times, serif;  color: #323231;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #323231;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
