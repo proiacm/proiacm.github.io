@@ -1,23 +1,20 @@
 .About {
-  display: inline-block;
-  padding-left: 30%;
-  padding-right: 40%;
-  position: relative;
-  /* height: 300px; */
+  margin-top: 15%;
+  margin-left: 20%;
+  margin-right: 20%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-size: cover;
-  margin-bottom: 200px;
+  margin-bottom: 15%;
 }
 
 img.About-img {
   width: 80%;
   height: auto;
-  padding-top: 20px;
+  margin-top: 15%;
 }
 
 .container {
-  margin-left: 125px;
+  margin-left: 33%;
   position: relative;
   height: 300px;
   width: 260px;
@@ -44,7 +41,7 @@ img.About-img {
   color: #323231;
   font-size: 15px;
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -62,66 +59,30 @@ img.About-img {
 .About-title {
   text-transform: uppercase;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  white-space: nowrap;
-  margin-top: -5px;
   text-align: center;
-}
-
-.myButton {
-	box-shadow:inset 0px 1px 0px 0px #ffffff;
-	background:linear-gradient(to bottom, #ededed 5%, #c2c2c2 100%);
-	background-color:#ededed;
-	border-radius:2px;
-	border:1px solid #c9c9c9;
-	display:inline-block;
-	cursor:pointer;
-	color:#5e5e5e;
-	font-size:15px;
-	font-weight:bold;
-	padding:7px 7px;
-	text-decoration:none;
-  text-shadow:0px 1px 0px #ffffff;
-  margin-left: 180px;
-}
-.myButton:hover {
-	background:linear-gradient(to bottom, #c2c2c2 5%, #ededed 100%);
-	background-color:#c2c2c2;
-}
-.myButton:active {
-	position:relative;
-	top:1px;
 }
 
 
 @media only screen and (max-width: 600px){
 
     .About {
-      padding-left: 5px;
       width: 100%;
-      padding-right: 5px;
       margin-bottom: 110%;
+      margin-left: 1%;
     }
   
     .About-text {
-      font-size: 5vw;
+      font-size: 5.5vw;
       white-space: normal;
-      width: fit-content;
+      margin-right: 2%;
+      margin-left: 2%;
     }
 
     .About-title {
       display: none;
     }
 
-    .overlay {
-      display: none;
-    }
-
     .container {
-      display: none;
-    }
-
-    .myButton {
-      margin-left: 25%;
-      font-size: 5vw;
+     display: none;
     }
   }
