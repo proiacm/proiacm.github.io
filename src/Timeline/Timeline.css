@@ -1,0 +1,89 @@
+body {
+  font-size: 16px;
+  color: rgb(53, 53, 53);
+}
+
+.resume {
+  margin-bottom: 10%;
+}
+
+.title {
+  padding-top: 2%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h3 {
+  padding-top: 0.25em;
+}
+
+.vertical-timeline-element-content {
+  box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
+    0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+  padding: 2em 3em !important;
+}
+
+.date {
+  color: rgb(201, 251, 255);
+}
+
+#description {
+  margin: 1.5em 0 2em 0;
+}
+
+.button {
+  text-decoration: none;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  color: white;
+}
+
+.workButton {
+  background-color: #06d6a0;
+}
+
+.workButton:hover {
+  background-color: #0ac593;
+}
+
+.schoolButton {
+  background-color: #f9c74f;
+}
+
+.schoolButton:hover {
+  background-color: #f3bc3c;
+}
+
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ededed 5%, #c2c2c2 100%);
+	background-color:#ededed;
+	border-radius:2px;
+	border:1px solid #c9c9c9;
+	display:inline-block;
+	cursor:pointer;
+	color:#5e5e5e;
+	font-size:15px;
+	font-weight:bold;
+	padding:10px 10px;
+	text-decoration:none;
+  text-shadow:0px 1px 0px #ffffff;
+  margin-bottom: 5%;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #c2c2c2 5%, #ededed 100%);
+	background-color:#c2c2c2;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+@media only screen and (max-width: 1700px) {
+  .vertical-timeline-element-date {
+    display: block !important;
+    float: none !important;
+    color: rgb(44, 44, 44);
+    margin-top: 1.5em;
+  }
+}
