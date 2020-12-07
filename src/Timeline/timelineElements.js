@@ -13,7 +13,7 @@ let timelineElements = [
     title: "Flatiron School Software Engineering",
     location: "Colorado Springs, CO",
     description:
-      "Intensive full-time cohort to develop key skills that build upon one another through interactive labs, lectures, close collaboration, and 5 comprehensive porfolio projects using Ruby, Rails, SQLite, JavaScript, and React.",
+      "Intensive full-time cohort to develop key skills that build upon one another through interactive labs, lectures, close collaboration, and 5 comprehensive portfolio projects using Ruby, Rails, SQLite, JavaScript, and React.",
     date: "March 2020 - August 2020",
     icon: "school"
   },
