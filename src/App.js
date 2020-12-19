@@ -7,7 +7,7 @@ import Nav from './Nav/Nav';
 import TextLoop from 'react-text-loop';
 import glamlex from './Demos/glamlex.webp';
 import untriggered from './Demos/untriggered.webp';
-import christmas from './Demos/christmascountdown.webp';
+import artstudio from './Demos/artstudio1.webp';
 import Timeline from './Timeline/Timeline';
 
 class App extends Component {
@@ -15,8 +15,8 @@ class App extends Component {
 
   state = { 
     projects: [
-     { name: 'Glamlex', img: glamlex , link: <a target='_blank' rel="noopener noreferrer" href='https://www.cmproia.com/Glamlex'>View Code</a>, live: <a className='live' target='_blank' rel="noopener noreferrer" href='https://proiacm.github.io/Glamlex/'>[Live Demo]</a>, desc: 'React/JavaScript freelance project'},
-     { name: 'Christmas Countdown', img: christmas, link: <a target='_blank' rel="noopener noreferrer" href='https://www.cmproia.com/Christmas'>View Code</a>, live: <a className= 'live' target='_blank' rel="noopener noreferrer" href='https://proiacm.github.io/Christmas/'>[Live Demo]</a>, desc: 'React/JavaScript countdown timer'},
+    { name: 'C.P. Art Studio', img: artstudio, link: <a target='_blank' rel="noopener noreferrer" href='https://www.github.com/proiacm/C.P.Art-Studio'>View Code</a>, live: <a className= 'live' target='_blank' rel="noopener noreferrer" href='https://proiacm.github.io/C.P.Art-Studio/'>[Live Demo]</a>, desc: 'React freelance project'},
+     { name: 'Glamlex', img: glamlex , link: <a target='_blank' rel="noopener noreferrer" href='https://www.github.com/proiacm/Glamlex'>View Code</a>, live: <a className='live' target='_blank' rel="noopener noreferrer" href='https://proiacm.github.io/Glamlex/'>[Live Demo]</a>, desc: 'React freelance project'},
      { name: 'Untriggered', img: untriggered, link: <a target='_blank' rel="noopener noreferrer" href='https://github.com/proiacm/untriggered'>View Code</a>, live: '[Live Soon]', desc: 'Ruby on Rails app with third-party auth'}
    ]
  }
