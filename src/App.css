@@ -2,24 +2,30 @@
   width: fixed;
   height: fixed;
   text-align: center;
-  background-color: #F7F4F2;
+  background-color: #FFFFFF;
   overflow: hidden;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  color: #323231;
+  font-family: 'Playfair Display';
+  color: #000000;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+
 }
 
 a:link {
-  color: #323231;
+  color: #000000;
 }
 
 a:active {
-  color: #323231;
+  color: #000000;
 }
 
 a:visited {
-  color: #323231;
+  color: #000000;
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 .projectheader {

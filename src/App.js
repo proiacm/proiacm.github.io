@@ -5,19 +5,17 @@ import Contact from './Contact/Contact';
 import Projects from './Projects/Projects';
 import Nav from './Nav/Nav';
 import TextLoop from 'react-text-loop';
-import {Link} from 'react-scroll';
 import glamlex from './Demos/glamlex.webp';
 import untriggered from './Demos/untriggered.webp';
 import christmas from './Demos/christmascountdown.webp';
 import Timeline from './Timeline/Timeline';
-import Birds from './Birds/Birds';
 
 class App extends Component {
 
 
   state = { 
     projects: [
-     { name: 'Glamlex', img: glamlex , link: <a target='_blank' rel="noopener noreferrer" href='https://www.cmproia.com/Glamlex'>View Code</a>, live: <a className='live' target='_blank' rel="noopener noreferrer" href='https://proiacm.github.io/Glamlex/'>[Live Demo]</a>, desc: 'React/JavaScript freelance project blueprint'},
+     { name: 'Glamlex', img: glamlex , link: <a target='_blank' rel="noopener noreferrer" href='https://www.cmproia.com/Glamlex'>View Code</a>, live: <a className='live' target='_blank' rel="noopener noreferrer" href='https://proiacm.github.io/Glamlex/'>[Live Demo]</a>, desc: 'React/JavaScript freelance project'},
      { name: 'Christmas Countdown', img: christmas, link: <a target='_blank' rel="noopener noreferrer" href='https://www.cmproia.com/Christmas'>View Code</a>, live: <a className= 'live' target='_blank' rel="noopener noreferrer" href='https://proiacm.github.io/Christmas/'>[Live Demo]</a>, desc: 'React/JavaScript countdown timer'},
      { name: 'Untriggered', img: untriggered, link: <a target='_blank' rel="noopener noreferrer" href='https://github.com/proiacm/untriggered'>View Code</a>, live: '[Live Soon]', desc: 'Ruby on Rails app with third-party auth'}
    ]
@@ -33,20 +31,18 @@ class App extends Component {
 
     return (
       <div className="App">
-         <Birds />
         <Nav />
         <About />
         <Timeline />
-        <h1 className='projectheader' id='projects'>Featured Projects</h1>
         {projectList} <br/>
         <Contact loopText={<TextLoop interval={2000}>
-        <Link spy={true} smooth={true}><span>build something together.</span></Link>
-        <Link spy={true} smooth={true}><span>solve a problem.</span></Link>
-        <Link spy={true} smooth={true}><span>grab coffee.</span></Link>
-        <Link spy={true} smooth={true}><span>talk philosophy.</span></Link>
-        <Link spy={true} smooth={true}><span>share memes.</span></Link>
-        <Link spy={true} smooth={true}><span>learn something new.</span></Link>
-        <Link spy={true} smooth={true}><span>innovate.</span></Link>
+        <span>build something together.</span>
+        <span>solve a problem.</span>
+        <span>grab coffee.</span>
+        <span>talk philosophy.</span>
+        <span>share memes.</span>
+        <span>learn something new.</span>
+        <span>innovate.</span>
         </TextLoop>}/>
       </div>
     );

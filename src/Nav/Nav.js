@@ -1,13 +1,17 @@
 import React from 'react';
 import './Nav.css';
-import {Link} from 'react-scroll'
+import {Link} from 'react-scroll';
+import logo from '../Images/cmlogotrans.png';
 
-const Nav = (props) => {
+const Nav = () => {
 
     return ( 
-         <div className='home-title'> 
-          <span>CiaraMaria</span>
-                <p className='Nav-bar'><Link style={{ cursor: "pointer"}} to="about" spy={true} smooth={true}><u>About</u></Link> | <Link style={{ cursor: "pointer"}} to="resume" spy={true} smooth={true}><u>Resume</u></Link> | <Link style={{ cursor: "pointer" }} to="projects" spy={true} smooth={true}><u>Projects</u></Link> | <Link style={{ cursor: "pointer" }} to="contact" spy={true} smooth={true}><u>Contact</u></Link> | <a className='blog' target='_blank' rel="noopener noreferrer" href='https://dev.to/proiacm'>Blog</a></p>
+         <div className='nav' id='nav'> 
+                <p className='nav-bar-left'><Link style={{ cursor: "pointer"}} to="about" spy={true} smooth={true}>About</Link></p>
+                <p className='nav-bar-left'><Link style={{ cursor: "pointer"}} to="work" spy={true} smooth={true}>Work</Link></p>
+                <p className='nav-bar-right'><Link style={{ cursor: "pointer"}} to="contact" spy={true} smooth={true}>Contact</Link></p>
+                <p className='nav-bar-right'><a target='_blank' rel="noopener noreferrer" href='https://dev.to/proiacm'>Blog</a></p>
+                <img className='nav-logo' src={logo} alt='logo'/>
         </div>
     )
 }

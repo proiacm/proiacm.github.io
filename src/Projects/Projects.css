@@ -1,14 +1,13 @@
 
 .Project-card {
-    background-color: #F7F4F2; 
     width: 30%;
     height: auto;
     display: inline-block;
     padding: 7px;
-    color: #323231;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-family: 'Trirong', serif;
+    margin-top: -7%;
 }
 
 .image {
@@ -18,7 +17,7 @@
     height: auto;
     transition: 700ms;
     backface-visibility: hidden;
-    border: 3px solid #323231;
+    border: 3px solid #000000;
   }
 
 .text {
@@ -40,13 +39,13 @@
   }
   
   .text {
-    background-color: #ebb7a8cb;
+    background-color: #C9C9C9;
     padding: 16px 32px;
     border-radius: 2px;
   }
 
 a.live:hover {
-  color: #62B9C9;
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 600px){
@@ -60,7 +59,7 @@ a.live:hover {
        width: 90%;
        height: auto;
        padding-bottom: 50px;
-       font-size: 5vw;
+       font-size: 4.5vw;
     }
 
     .Project:hover {

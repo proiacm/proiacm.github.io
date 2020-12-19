@@ -1,19 +1,33 @@
-.Contact {
-    padding-top: 300px;
-    padding-bottom: 50px;
+.contact {
+    margin-top: 5%;
+    padding-top: 40%;
+    padding-bottom: 4%;
     text-align: center;
-    color: #323231;
+    background-color: #000000;
+    color: #FFFFFF;
     margin-bottom: -50px;
-    background-image: linear-gradient(#CCBEB8 20%, #F7F4F2);
-    clip-path: polygon(0 20%, 100% 36%, 100% 100%, 0% 100%); 
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    font-family: 'Trirong', serif;
-
 }
 
 .animated {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: -20%;
+    margin-bottom: 10%;
+}
+
+a.contact-link {
+    color: #FFFFFF;
+    font-size: 1.5vw;
+}
+
+a.contact-link:hover {
+    text-decoration: none;
+}
+
+.back-home {
+    text-decoration: underline;
+}
+
+.back-home:hover{
+    text-decoration: none;
 }
  
 p.footer {
@@ -22,13 +36,18 @@ p.footer {
     
 @media only screen and (max-width: 600px){
 
-    .Contact {
-        padding-top: 250px;
+    .contact {
+        padding-top: 80%;
         font-size: 4.5vw;
+        padding-bottom: 20%;
     }
 
     .animated {
         font-size: 6vw;
       }
+
+      a.contact-link {
+        font-size: 4.5vw;
+    }  
   
   }

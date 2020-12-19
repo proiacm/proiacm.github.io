@@ -1,88 +1,51 @@
-.About {
-  margin-top: 15%;
-  margin-left: 20%;
-  margin-right: 20%;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  margin-bottom: 15%;
+.about {
+  overflow: auto;
+  margin-top: 20%;
+  padding-top: 5%;
+  padding-bottom: 25%;
+  background-color: #000000;
+  color: #FFFFFF;
 }
 
-img.About-img {
-  width: 80%;
-  height: auto;
-  margin-top: 15%;
+.about-img {
+  width: 30%;
+  float: left;
+  margin-left: 3%;
+  margin-right: 1%;
+  border-radius: 6px;
 }
 
-.container {
-  margin-left: 33%;
-  position: relative;
-  height: 300px;
-  width: 260px;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: 900ms;
-  background-color: #F7F4F2;
-}
-
-.container:hover .overlay {
-  opacity: 1;
-}
-
-.overlay-text {
-  color: #323231;
-  font-size: 15px;
-  position: absolute;
-  top: 60%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-
-
-.About-text {
+.about-text {
   text-align: left;
-  font-family: 'Trirong', serif;
+  font-size: 1.5vw;
+  margin-right: 3%;
 }
 
-.About-title {
+.about-title {
   text-transform: uppercase;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Playfair Display';
   text-align: center;
 }
-
 
 @media only screen and (max-width: 600px){
 
-    .About {
-      width: 100%;
-      margin-bottom: 110%;
-      margin-left: 1%;
+    .about {
+      padding-bottom: 5%;
     }
   
-    .About-text {
+    .about-text {
       font-size: 5.5vw;
       white-space: normal;
-      margin-right: 2%;
-      margin-left: 2%;
+      margin-right: 4%;
+      margin-left: 4%;
+      text-align: center;
     }
 
-    .About-title {
+    .about-title {
       display: none;
     }
 
-    .container {
-     display: none;
+    .about-img {
+      width: 90%;
     }
   }
