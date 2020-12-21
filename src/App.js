@@ -9,6 +9,7 @@ import glamlex from './Demos/glamlex.webp';
 import untriggered from './Demos/untriggered.webp';
 import artstudio from './Demos/artstudio1.webp';
 import Timeline from './Timeline/Timeline';
+import Sidenav from './Sidenav/Sidenav';
 
 class App extends Component {
 
@@ -31,10 +32,11 @@ class App extends Component {
 
     return (
       <div className="App">
+        <Sidenav />
         <Nav />
         <About />
         <Timeline />
-        {projectList} <br/>
+        {projectList}
         <Contact loopText={<TextLoop interval={2000}>
         <span>build something together.</span>
         <span>solve a problem.</span>
