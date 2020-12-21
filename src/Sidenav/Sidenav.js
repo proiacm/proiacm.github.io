@@ -19,7 +19,7 @@ class Sidenav extends Component {
           // console.log(maxScroll)
           if (currentScrollPos < 500 && currentScrollPos < maxScroll) { 
             this.setState({ opacity: '0'})
-            console.log(currentScrollPos)
+            // console.log(currentScrollPos)
           } else {
             this.setState({ opacity: '1' })
           }
@@ -40,7 +40,7 @@ class Sidenav extends Component {
   render () {
 
     return (
-      <div className='sidenav' className='sidenav-scroll' style={{ opacity: `${this.state.opacity}`}}>
+      <div className='sidenav' style={{ opacity: `${this.state.opacity}`}}>
         <Menu width={ '15%' } isOpen={this.state.menuOpen} onStateChange={(state) => this.handleStateChange(state)}>
           <Link className='nav-li' style={{ cursor: "pointer"}} to="home" spy={true} smooth={true} onClick={() => this.closeMenu()}>Home</Link>
           <Link className='nav-li' style={{ cursor: "pointer"}} to="about" spy={true} smooth={true} onClick={() => this.closeMenu()}>About</Link>

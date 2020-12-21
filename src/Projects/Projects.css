@@ -65,8 +65,12 @@ a.live:hover {
         transition: 900ms;
     }
 
+    .image {
+      height: 50%;
+    }
+
     .text {
-      margin-left: 50%;
+      margin-left: 47%;
     }
   
   }
