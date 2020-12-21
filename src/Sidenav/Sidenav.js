@@ -7,7 +7,7 @@ class Sidenav extends Component {
 
     state = {
       menuOpen: false,
-      opacity: '1'
+      opacity: '0'
     }
 
     // will show sidenav on all parts of the page except the top
