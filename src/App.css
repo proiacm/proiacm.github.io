@@ -28,14 +28,8 @@ a:hover {
   text-decoration: none;
 }
 
-.projectheader {
-  text-transform: uppercase;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  padding-top: 20px;
-}
-
 .project-container {
-  margin-bottom: 5%;
+  margin-bottom: 15%;
 }
 
 @media only screen and (max-width: 600px){
@@ -44,7 +38,4 @@ a:hover {
       font-size: 100%;
     }
 
-    h1.projectheader {
-      color: #323231;
-    }
   }
