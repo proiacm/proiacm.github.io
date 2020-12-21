@@ -1,7 +1,7 @@
 .about {
   overflow: auto;
-  margin-top: 20%;
-  padding-top: 5%;
+  margin-top: 10%;
+  padding-top: 10%;
   padding-bottom: 25%;
   background-color: #000000;
   color: #FFFFFF;
@@ -31,6 +31,7 @@
 
     .about {
       padding-bottom: 5%;
+      padding-top: 5%;
     }
   
     .about-text {
@@ -38,7 +39,7 @@
       white-space: normal;
       margin-right: 4%;
       margin-left: 4%;
-      text-align: center;
+      text-align: left;
     }
 
     .about-title {
@@ -46,6 +47,6 @@
     }
 
     .about-img {
-      width: 90%;
+      width: 50%;
     }
   }

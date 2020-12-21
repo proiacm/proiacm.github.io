@@ -34,6 +34,10 @@ a:hover {
   padding-top: 20px;
 }
 
+.project-container {
+  margin-bottom: 5%;
+}
+
 @media only screen and (max-width: 600px){
 
     .animated-text {

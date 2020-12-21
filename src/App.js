@@ -23,7 +23,7 @@ class App extends Component {
 
   render() {
 
-    let projectList = <div>
+    let projectList = <div className='project-container'>
       {this.state.projects.map((project, index) => {
         return <Projects key={index} name={project.name} demo={project.img} link={project.link} live={project.live} desc={project.desc}/>
       })}
