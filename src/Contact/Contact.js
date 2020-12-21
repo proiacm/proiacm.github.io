@@ -10,7 +10,6 @@ const Contact = (props) => {
             <a className='contact-link' target='_blank' rel="noopener noreferrer" href='https://www.linkedin.com/in/cmproia/'>LinkedIn</a> &nbsp; | &nbsp;
             <a className='contact-link' target='_blank' rel="noopener noreferrer" href={"mailto:" + 'proiacm@gmail.com'}>proiacm@gmail.com</a> &nbsp; | &nbsp;
             <a className='contact-link' target='_blank' rel="noopener noreferrer" href='https://github.com/proiacm'>GitHub</a><br/><br/><br/><br/>
-            <Link className='back-home' style={{ cursor: "pointer"}} to="nav" spy={true} smooth={true}>Back to top</Link><br/>
             <p className='footer'>© CiaraMaria Proia. All Rights Reserved.</p>
 
         </div>
