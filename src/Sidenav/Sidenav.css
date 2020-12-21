@@ -61,6 +61,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
   background: #FFFFFF;
 }
 
+/* Styling of links */
 .nav-li {
   font-family: 'Playfair Display';
   color: #000000;
@@ -70,6 +71,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
   text-transform: uppercase;
 }
 
+/* Removes purple outline when clicked */
 .nav-li:focus {
   outline: none;
 }
