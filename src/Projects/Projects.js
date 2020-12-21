@@ -6,7 +6,7 @@ const Projects = (props) => {
     return (
             <div className='Project-card'>
                 <h3>{props.name} {props.live}</h3>
-                {props.desc}
+                <span className='desc'>{props.desc}</span>
             <img className='image' alt='project' src={props.demo}/>
                 <p className='text'>{props.link}</p>
             </div>

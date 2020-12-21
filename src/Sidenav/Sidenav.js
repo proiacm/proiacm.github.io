@@ -17,9 +17,9 @@ class Sidenav extends Component {
           let currentScrollPos = window.pageYOffset;
           let maxScroll = document.body.scrollHeight - window.innerHeight;
           // console.log(maxScroll)
-          if (currentScrollPos < 510 && currentScrollPos < maxScroll) { 
+          if (currentScrollPos < 500 && currentScrollPos < maxScroll) { 
             this.setState({ opacity: '0'})
-            // console.log(currentScrollPos)
+            console.log(currentScrollPos)
           } else {
             this.setState({ opacity: '1' })
           }
