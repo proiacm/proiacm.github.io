@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5bee7ad09e260be2acd0bde931007e40",
+    "revision": "bb9a7c43b9846f2e892f896dfe82f53e",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.22ca87da.chunk.css"
   },
   {
-    "revision": "63bc6f1e0aec7c762cdf",
+    "revision": "64f55989184a4f3e398d",
     "url": "/static/css/main.36c9103c.chunk.css"
   },
   {
@@ -20,16 +20,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.8938d544.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "63bc6f1e0aec7c762cdf",
-    "url": "/static/js/main.1c6c155c.chunk.js"
+    "revision": "64f55989184a4f3e398d",
+    "url": "/static/js/main.54ed5353.chunk.js"
   },
   {
     "revision": "0f99e981c8ce428747c8",
     "url": "/static/js/runtime-main.b41d253a.js"
   },
   {
-    "revision": "1362199fd37ce77b0c5b69b7407f889b",
-    "url": "/static/media/CiaraMaria_Proia_Resume.1362199f.pdf"
+    "revision": "886301d141334908958536878ff4b865",
+    "url": "/static/media/CiaraMaria_Proia_Resume.886301d1.pdf"
   },
   {
     "revision": "18c27db97055ef347201dc4b4a1a5341",
