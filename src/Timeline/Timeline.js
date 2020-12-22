@@ -12,7 +12,7 @@ const Timeline = ()  => {
   let schoolIconStyles = { background: "#62B9C9" };
 
   return (
-    <div className='resume' id='work'>
+    <div className='resume' id='resume'>
       <h1 className="title">Journey to my dream career</h1>
       <a className='myButton' href={resume} download>Download Resume</a>
       <VerticalTimeline>

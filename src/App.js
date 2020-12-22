@@ -24,7 +24,7 @@ class App extends Component {
 
   render() {
 
-    let projectList = <div className='project-container'>
+    let projectList = <div className='project-container' id='work'>
       {this.state.projects.map((project, index) => {
         return <Projects key={index} name={project.name} demo={project.img} link={project.link} live={project.live} desc={project.desc}/>
       })}
@@ -35,8 +35,8 @@ class App extends Component {
         <Sidenav />
         <Nav />
         <About />
-        <Timeline />
         {projectList}
+        <Timeline />
         <Contact loopText={<TextLoop interval={2000}>
         <span>build something together.</span>
         <span>solve a problem.</span>
