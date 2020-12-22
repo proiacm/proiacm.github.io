@@ -1,10 +1,10 @@
 let timelineElements = [
   {
     id: 1,
-    title: "Frontend Developer",
+    title: "Web Designer/Developer",
     location: "Colorado Springs, CO",
     description:
-      "Leveraging experience in building client relationships while designing stunning and intuitive applications with the use of React, JavaScript, HTML, and CSS.",
+      "Develop and structure feature-rich and responsive websites with focus a on React SPAs.",
     date: "October 2020 - present",
     icon: "work"
   },
