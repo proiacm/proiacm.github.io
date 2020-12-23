@@ -29,14 +29,23 @@
   text-decoration: none;
 }
 
+.logo {
+  font-family: 'Playfair Display';
+  font-size: 3.8vw;
+  text-transform: uppercase;
+  position: absolute;
+  margin-top: 1%;
+  margin-left: 44%;
+}
+
 .svg {
   margin-top: -12%;
   margin-left: 17%;
 }
 
 .path {
-  stroke-dasharray: 1500;
-  stroke-dashoffset: 1500;
+  stroke-dasharray: 1300;
+  stroke-dashoffset: 1300;
   animation: dash 2s linear forwards;
   animation-delay: 0.5s;
 }
