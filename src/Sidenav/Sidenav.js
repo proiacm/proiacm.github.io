@@ -40,6 +40,7 @@ class Sidenav extends Component {
   render () {
 
     return (
+      
       <div className='sidenav' style={{ opacity: `${this.state.opacity}`}}>
         <Menu width={ '15%' } isOpen={this.state.menuOpen} onStateChange={(state) => this.handleStateChange(state)}>
           <Link className='nav-li' style={{ cursor: "pointer"}} to="home" spy={true} smooth={true} onClick={() => this.closeMenu()}>Home</Link>
@@ -48,7 +49,7 @@ class Sidenav extends Component {
           <Link className='nav-li' style={{ cursor: "pointer"}} to="resume" spy={true} smooth={true} onClick={() => this.closeMenu()}>Resume</Link>
           <Link className='nav-li' style={{ cursor: "pointer"}} to="contact" spy={true} smooth={true} onClick={() => this.closeMenu()}>Contact</Link>
           <a className='nav-li' target='_blank' rel="noopener noreferrer" href='https://dev.to/proiacm' onClick={() => this.closeMenu()}>Blog</a>
-        </Menu>    
+        </Menu>  
       </div>
     );
   }
