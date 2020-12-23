@@ -31,6 +31,7 @@
 
 .logo {
   font-family: 'Playfair Display';
+  font-weight: bold;
   font-size: 3.8vw;
   text-transform: uppercase;
   position: absolute;
@@ -38,7 +39,17 @@
   margin-left: 44%;
 }
 
+.logo2 {
+  font-family: 'Playfair Display';
+  font-size: 1vw;
+  text-transform: uppercase;
+  position: absolute;
+  margin-top: 17%;
+  margin-left: 42%;
+}
+
 .svg {
+  position: relative;
   margin-top: -12%;
   margin-left: 17%;
 }
@@ -57,6 +68,10 @@
   animation-delay: 1s;
 }
 
+.nav-logo {
+  display: none;
+}
+
 @keyframes dash {
   to {
     stroke-dashoffset: 0;
@@ -65,12 +80,25 @@
   }
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 1200px){
     .nav-bar-left, .nav-bar-right {
       display: none;
     }
 
+    .logo {
+      display: none;
+    }
+    
+    .logo2 {
+      display: none;
+    }
+    
+    .svg {
+     display: none;
+    }
+
     .nav-logo {
+      display: block;
       width: 100%;
       margin-top: 15%;
       margin-bottom: 10%;
