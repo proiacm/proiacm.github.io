@@ -25,7 +25,7 @@ const Nav = () => {
                 <g>
                 
                 <rect className='path' stroke="#000" id="svg_3" height="318.99999" width="298.99999" y="125.45313" x="157.5" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" fill="none"/>
-                <rect stroke="#000" id="svg_4" height="316.99999" width="304" y="103.45313" x="132.5" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" fill="none"/>
+                <rect className='path2' stroke="#000" id="svg_4" height="316.99999" width="304" y="103.45313" x="132.5" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" fill="none"/>
                 </g>
                 </svg>
         </div>
