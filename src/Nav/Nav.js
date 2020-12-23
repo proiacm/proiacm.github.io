@@ -14,7 +14,7 @@ const Nav = () => {
                 
                 {/* <img className='nav-logo' src={logo} alt='logo'/> */}
 
-                <svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+                <svg className='svg' width="800" height="600" xmlns="http://www.w3.org/2000/svg">
                 {/* <g>
               
                 <rect fill="#fff" id="canvas_background" height="602" width="802" y="-1" x="-1"/>
