@@ -40,6 +40,7 @@ class App extends Component {
         <Contact loopText={<TextLoop interval={2000}>
         <span>build something together.</span>
         <span>solve a problem.</span>
+        <span>animate.</span>
         <span>grab coffee.</span>
         <span>talk philosophy.</span>
         <span>share memes.</span>
