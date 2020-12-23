@@ -1,5 +1,4 @@
 .nav {
-    text-align: center;
     color: #000000;
     position: relative;
     font-weight: bold;
@@ -80,7 +79,7 @@
   }
 }
 
-@media only screen and (max-width: 1200px){
+@media only screen and (max-width: 1050px){
     .nav-bar-left, .nav-bar-right {
       display: none;
     }
