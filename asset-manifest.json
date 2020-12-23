@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.9de9c73e.chunk.css",
-    "main.js": "/static/js/main.9b114dad.chunk.js",
-    "main.js.map": "/static/js/main.9b114dad.chunk.js.map",
+    "main.css": "/static/css/main.ba6ab5b5.chunk.css",
+    "main.js": "/static/js/main.dd6b8eaf.chunk.js",
+    "main.js.map": "/static/js/main.dd6b8eaf.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b41d253a.js",
     "runtime-main.js.map": "/static/js/runtime-main.b41d253a.js.map",
     "static/css/2.22ca87da.chunk.css": "/static/css/2.22ca87da.chunk.css",
     "static/js/2.8938d544.chunk.js": "/static/js/2.8938d544.chunk.js",
     "static/js/2.8938d544.chunk.js.map": "/static/js/2.8938d544.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.953c8e4e67a8c2336ad320cb87a2fde9.js": "/precache-manifest.953c8e4e67a8c2336ad320cb87a2fde9.js",
+    "precache-manifest.96395326b0aeede9bc43c327e5b4646a.js": "/precache-manifest.96395326b0aeede9bc43c327e5b4646a.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.22ca87da.chunk.css.map": "/static/css/2.22ca87da.chunk.css.map",
-    "static/css/main.9de9c73e.chunk.css.map": "/static/css/main.9de9c73e.chunk.css.map",
+    "static/css/main.ba6ab5b5.chunk.css.map": "/static/css/main.ba6ab5b5.chunk.css.map",
     "static/js/2.8938d544.chunk.js.LICENSE.txt": "/static/js/2.8938d544.chunk.js.LICENSE.txt",
     "static/media/CiaraMaria_Proia_Resume.pdf": "/static/media/CiaraMaria_Proia_Resume.886301d1.pdf",
     "static/media/artstudio1.webp": "/static/media/artstudio1.18c27db9.webp",
     "static/media/cmlogotrans.png": "/static/media/cmlogotrans.d777d9bb.png",
     "static/media/glamlex.webp": "/static/media/glamlex.0aa4994f.webp",
-    "static/media/portrait.png": "/static/media/portrait.70d7ff21.png",
+    "static/media/portrait.png": "/static/media/portrait.477d0aab.png",
     "static/media/school.d8964313.svg": "/static/media/school.d8964313.svg",
     "static/media/untriggered.webp": "/static/media/untriggered.f10d3f63.webp",
     "static/media/work.1167e2eb.svg": "/static/media/work.1167e2eb.svg"
@@ -27,7 +27,7 @@
     "static/js/runtime-main.b41d253a.js",
     "static/css/2.22ca87da.chunk.css",
     "static/js/2.8938d544.chunk.js",
-    "static/css/main.9de9c73e.chunk.css",
-    "static/js/main.9b114dad.chunk.js"
+    "static/css/main.ba6ab5b5.chunk.css",
+    "static/js/main.dd6b8eaf.chunk.js"
   ]
 }
